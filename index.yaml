@@ -849,7 +849,7 @@ entries:
     version: 1.0.0
   mosip-file-server:
   - apiVersion: v2
-    created: "2024-05-27T14:08:54.103811277+03:00"
+    created: "2024-11-28T09:26:11.965192897Z"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -857,7 +857,7 @@ entries:
       - bitnami-common
       version: 1.x.x
     description: A Helm chart to file server application.
-    digest: 27726b594a3d275b867cb48a5fd200b598e1d5db7388414578fac27202298df9
+    digest: 85f0b4dd1980f386ebd0225abcbe77ec0ee4e15a5f379814712250a5da041f2b
     home: https://mosip.io
     keywords:
     - mosip
@@ -869,7 +869,7 @@ entries:
     name: mosip-file-server
     type: application
     urls:
-    - https://niragit.github.io/mosip-helm/mosip-file-server-12.0.1.tgz
+    - https://tf-nira.github.io/mosip-helm-nira/mosip-file-server-12.0.1.tgz
     version: 12.0.1
   nira-payment-gateway:
   - apiVersion: v2
@@ -2224,4 +2224,4 @@ entries:
     urls:
     - https://niragit.github.io/mosip-helm/websub-consolidator-12.0.1.tgz
     version: 12.0.1
-generated: "2024-11-28T08:55:56.630448031Z"
+generated: "2024-11-28T09:26:11.963441019Z"
