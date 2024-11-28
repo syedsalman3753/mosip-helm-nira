@@ -730,7 +730,7 @@ entries:
   masterdata-loader:
   - apiVersion: v2
     appVersion: 1.2.0
-    created: "2024-05-27T14:08:54.079697359+03:00"
+    created: "2024-11-28T08:55:56.631579977Z"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -738,7 +738,7 @@ entries:
       - bitnami-common
       version: 1.x.x
     description: A Helm chart to upload default masterdata to mosip_master DB.
-    digest: 6bde9dc3db7f373af17ece875256bb541c94b83afe5fbee6eda05fb9e252d0e3
+    digest: 904c38091d12d311f498d6da824e7d8701d47f9851ed7b8fdad179721fddbe39
     home: https://mosip.io
     keywords:
     - postgres
@@ -750,7 +750,7 @@ entries:
     name: masterdata-loader
     type: application
     urls:
-    - https://niragit.github.io/mosip-helm/masterdata-loader-12.0.1.tgz
+    - https://tf-nira.github.io/mosip-helm-nira/masterdata-loader-12.0.1.tgz
     version: 12.0.1
   minio-client-util:
   - apiVersion: v2
@@ -2224,4 +2224,4 @@ entries:
     urls:
     - https://niragit.github.io/mosip-helm/websub-consolidator-12.0.1.tgz
     version: 12.0.1
-generated: "2024-06-11T10:53:26.569329948Z"
+generated: "2024-11-28T08:55:56.630448031Z"
