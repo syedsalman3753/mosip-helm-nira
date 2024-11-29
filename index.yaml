@@ -57,6 +57,29 @@ entries:
     urls:
     - https://niragit.github.io/mosip-helm/admin-hotlist-12.0.1.tgz
     version: 12.0.1
+  - apiVersion: v2
+    created: "2024-11-29T06:24:20.277253758Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart for MOSIP Admin Hotlist
+    digest: cf4951e96fb031ad49fb874b5150778cfbe864b910f8fe2f62dd9b1f4678c5c4
+    home: https://mosip.io
+    keywords:
+    - mosip
+    - admin
+    - hotlist
+    maintainers:
+    - email: info@mosip.io
+      name: MOSIP
+    name: admin-hotlist
+    type: application
+    urls:
+    - https://tf-nira.github.io/mosip-helm-nira/admin-hotlist-12.0.1-1.tgz
+    version: 12.0.1-1
   admin-service:
   - apiVersion: v2
     created: "2024-05-27T14:08:53.922339603+03:00"
@@ -81,6 +104,29 @@ entries:
     urls:
     - https://niragit.github.io/mosip-helm/admin-service-12.0.1.tgz
     version: 12.0.1
+  - apiVersion: v2
+    created: "2024-11-29T06:24:20.278690651Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart for MOSIP Admin module
+    digest: 896fb52ecc483d213ee63dba67fb58c21fc1b760b223c0f5e61af9aff2188b63
+    home: https://mosip.io
+    keywords:
+    - mosip
+    - admin
+    - kernel
+    maintainers:
+    - email: info@mosip.io
+      name: MOSIP
+    name: admin-service
+    type: application
+    urls:
+    - https://tf-nira.github.io/mosip-helm-nira/admin-service-12.0.1-1.tgz
+    version: 12.0.1-1
   admin-ui:
   - apiVersion: v2
     created: "2024-05-27T14:08:53.927057982+03:00"
@@ -105,6 +151,29 @@ entries:
     urls:
     - https://niragit.github.io/mosip-helm/admin-ui-12.0.1.tgz
     version: 12.0.1
+  - apiVersion: v2
+    created: "2024-11-29T06:24:20.28091543Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart for MOSIP Admin UI module
+    digest: e791d277114467b4a20fbdd701cfb4d81cc5226ec764e64e28da4947015ec2b1
+    home: https://mosip.io
+    keywords:
+    - mosip
+    - admin
+    - kernel
+    maintainers:
+    - email: info@mosip.io
+      name: MOSIP
+    name: admin-ui
+    type: application
+    urls:
+    - https://tf-nira.github.io/mosip-helm-nira/admin-ui-12.0.1-1.tgz
+    version: 12.0.1-1
   apitestrig:
   - apiVersion: v2
     created: "2024-05-27T14:08:53.934414956+03:00"
@@ -128,6 +197,28 @@ entries:
     urls:
     - https://niragit.github.io/mosip-helm/apitestrig-12.0.1.tgz
     version: 12.0.1
+  - apiVersion: v2
+    created: "2024-11-29T06:24:20.282562286Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart to deploy APITESTRIG for MOSIP modules
+    digest: 1f966b4330536b7a6c34cc17f51cdeb4a889076ebf3838c4d9f74cdf09ed7069
+    home: https://mosip.io
+    keywords:
+    - mosip
+    - apitestrig
+    maintainers:
+    - email: info@mosip.io
+      name: MOSIP
+    name: apitestrig
+    type: application
+    urls:
+    - https://tf-nira.github.io/mosip-helm-nira/apitestrig-12.0.1-1.tgz
+    version: 12.0.1-1
   artifactory:
   - apiVersion: v2
     created: "2024-05-27T14:08:53.945544234+03:00"
@@ -152,6 +243,29 @@ entries:
     urls:
     - https://niragit.github.io/mosip-helm/artifactory-12.0.1.tgz
     version: 12.0.1
+  - apiVersion: v2
+    created: "2024-11-29T06:24:20.283959305Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart for MOSIP Artifactory
+    digest: 857139fba7b51d531885ea51054e90e08313a2974d87523815f6ca2c6607defb
+    home: https://mosip.io
+    keywords:
+    - artifactory
+    - antivirus
+    - anti-virus
+    maintainers:
+    - email: info@mosip.io
+      name: MOSIP
+    name: artifactory
+    type: application
+    urls:
+    - https://tf-nira.github.io/mosip-helm-nira/artifactory-12.0.1-1.tgz
+    version: 12.0.1-1
   - apiVersion: v2
     created: "2024-05-27T14:08:53.940084153+03:00"
     dependencies:
@@ -199,6 +313,29 @@ entries:
     urls:
     - https://niragit.github.io/mosip-helm/auditmanager-12.0.1.tgz
     version: 12.0.1
+  - apiVersion: v2
+    created: "2024-11-29T06:24:20.285474855Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart for MOSIP Auditmanager module
+    digest: ec678bb5bac3141c1c11ae245faec6932c4522960ec46b6972022031d40bd77d
+    home: https://mosip.io
+    keywords:
+    - mosip
+    - auditmanager
+    - kernel
+    maintainers:
+    - email: info@mosip.io
+      name: MOSIP
+    name: auditmanager
+    type: application
+    urls:
+    - https://tf-nira.github.io/mosip-helm-nira/auditmanager-12.0.1-1.tgz
+    version: 12.0.1-1
   authdemo:
   - apiVersion: v2
     created: "2024-05-27T14:08:53.955982695+03:00"
@@ -222,6 +359,28 @@ entries:
     urls:
     - https://niragit.github.io/mosip-helm/authdemo-12.0.1.tgz
     version: 12.0.1
+  - apiVersion: v2
+    created: "2024-11-29T06:24:20.287658943Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart to deploy authdemo for MOSIP modules
+    digest: d2782e4d2e185119b1c16aad6ed2b77268b7ff37b7e03c87f3b30fa6df5f58b2
+    home: https://mosip.io
+    keywords:
+    - mosip
+    - authdemo
+    maintainers:
+    - email: info@mosip.io
+      name: MOSIP
+    name: authdemo
+    type: application
+    urls:
+    - https://tf-nira.github.io/mosip-helm-nira/authdemo-12.0.1-1.tgz
+    version: 12.0.1-1
   authmanager:
   - apiVersion: v2
     created: "2024-05-27T14:08:53.960924049+03:00"
@@ -247,6 +406,30 @@ entries:
     urls:
     - https://niragit.github.io/mosip-helm/authmanager-12.0.1.tgz
     version: 12.0.1
+  - apiVersion: v2
+    created: "2024-11-29T06:24:20.289014864Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart for MOSIP Authentication Manager module
+    digest: 85766dde723817c18d524b99daeb7efaa99590285cdd98c580f2b50e63c34972
+    home: https://mosip.io
+    keywords:
+    - mosip
+    - auth
+    - authmanager
+    - kernel
+    maintainers:
+    - email: info@mosip.io
+      name: MOSIP
+    name: authmanager
+    type: application
+    urls:
+    - https://tf-nira.github.io/mosip-helm-nira/authmanager-12.0.1-1.tgz
+    version: 12.0.1-1
   biosdk-service:
   - apiVersion: v2
     created: "2024-05-27T14:08:53.96561168+03:00"
@@ -271,6 +454,29 @@ entries:
     urls:
     - https://niragit.github.io/mosip-helm/biosdk-service-12.0.1.tgz
     version: 12.0.1
+  - apiVersion: v2
+    created: "2024-11-29T06:24:20.290405741Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart for MOSIP Auditmanager module
+    digest: 1a9cad121f6377d3cdbad8356b46a9cdc6613e91979dc7ab0d3223bcea6c4aa5
+    home: https://mosip.io
+    keywords:
+    - mosip
+    - biosdk-service
+    - kernel
+    maintainers:
+    - email: info@mosip.io
+      name: MOSIP
+    name: biosdk-service
+    type: application
+    urls:
+    - https://tf-nira.github.io/mosip-helm-nira/biosdk-service-12.0.1-1.tgz
+    version: 12.0.1-1
   clamav:
   - apiVersion: v2
     created: "2024-05-27T14:08:53.972805207+03:00"
@@ -295,6 +501,29 @@ entries:
     urls:
     - https://niragit.github.io/mosip-helm/clamav-12.0.1.tgz
     version: 12.0.1
+  - apiVersion: v2
+    created: "2024-11-29T06:24:20.291660623Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart for Clamav
+    digest: a7769b79f5b5d8f08393f3f5c356ffde7dcc44f0b3a90ada500d6e58e044348b
+    home: https://mosip.io
+    keywords:
+    - clamav
+    - antivirus
+    - anti-virus
+    maintainers:
+    - email: info@mosip.io
+      name: MOSIP
+    name: clamav
+    type: application
+    urls:
+    - https://tf-nira.github.io/mosip-helm-nira/clamav-12.0.1-1.tgz
+    version: 12.0.1-1
   conf-secrets:
   - apiVersion: v2
     appVersion: 1.1.2
@@ -319,6 +548,29 @@ entries:
     urls:
     - https://niragit.github.io/mosip-helm/conf-secrets-12.0.1.tgz
     version: 12.0.1
+  - apiVersion: v2
+    appVersion: 1.1.2
+    created: "2024-11-29T06:24:20.292430556Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart for deploying secrets required by MOSIP config-server
+    digest: d40dce2ee05167838a600235f9a008a78a7b0dc020085af6787314755b36ecc6
+    home: https://mosip.io
+    keywords:
+    - config-server
+    - conf-secrets
+    maintainers:
+    - email: info@mosip.io
+      name: MOSIP
+    name: conf-secrets
+    type: application
+    urls:
+    - https://tf-nira.github.io/mosip-helm-nira/conf-secrets-12.0.1-1.tgz
+    version: 12.0.1-1
   config-server:
   - apiVersion: v2
     appVersion: 1.1.2
@@ -342,6 +594,28 @@ entries:
     urls:
     - https://tf-nira.github.io/mosip-helm-nira/config-server-12.0.1.tgz
     version: 12.0.1
+  - apiVersion: v2
+    appVersion: 1.1.2
+    created: "2024-11-29T06:24:20.295723705Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart for configuration of MOSIP modules
+    digest: 5289a872fee0c07037594d1a35c0658bf25f19e639d5c8267a65b915204572c2
+    home: https://mosip.io
+    keywords:
+    - config-server
+    maintainers:
+    - email: info@mosip.io
+      name: MOSIP
+    name: config-server
+    type: application
+    urls:
+    - https://tf-nira.github.io/mosip-helm-nira/config-server-12.0.1-1.tgz
+    version: 12.0.1-1
   credential:
   - apiVersion: v2
     created: "2024-05-27T14:08:53.991269687+03:00"
@@ -366,6 +640,29 @@ entries:
     urls:
     - https://niragit.github.io/mosip-helm/credential-12.0.1.tgz
     version: 12.0.1
+  - apiVersion: v2
+    created: "2024-11-29T06:24:20.297074908Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart for MOSIP IDRepo Identity Service
+    digest: 8912cb38b70e72373d75044993115dfca23875f352099882ecd58343c7ec8cda
+    home: https://mosip.io
+    keywords:
+    - mosip
+    - credential
+    - kernel
+    maintainers:
+    - email: info@mosip.io
+      name: MOSIP
+    name: credential
+    type: application
+    urls:
+    - https://tf-nira.github.io/mosip-helm-nira/credential-12.0.1-1.tgz
+    version: 12.0.1-1
   credentialrequest:
   - apiVersion: v2
     created: "2024-05-27T14:08:53.995697698+03:00"
@@ -390,6 +687,29 @@ entries:
     urls:
     - https://niragit.github.io/mosip-helm/credentialrequest-12.0.1.tgz
     version: 12.0.1
+  - apiVersion: v2
+    created: "2024-11-29T06:24:20.298364434Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart for MOSIP IDRepo Identity Service
+    digest: 565dce2400307c2865756b7004c946da6b3a27d0922c1a21d92307e0f51db1bb
+    home: https://mosip.io
+    keywords:
+    - mosip
+    - credentialrequest
+    - kernel
+    maintainers:
+    - email: info@mosip.io
+      name: MOSIP
+    name: credentialrequest
+    type: application
+    urls:
+    - https://tf-nira.github.io/mosip-helm-nira/credentialrequest-12.0.1-1.tgz
+    version: 12.0.1-1
   datashare:
   - apiVersion: v2
     created: "2024-05-27T14:08:54.000513847+03:00"
@@ -413,6 +733,28 @@ entries:
     urls:
     - https://niragit.github.io/mosip-helm/datashare-12.0.1.tgz
     version: 12.0.1
+  - apiVersion: v2
+    created: "2024-11-29T06:24:20.299688997Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart for MOSIP Datashare module
+    digest: 9cad9a8168b1a739d87073ed5e058701232ff465a0fd3bacc276d2667caf4d2c
+    home: https://mosip.io
+    keywords:
+    - mosip
+    - datashare
+    maintainers:
+    - email: info@mosip.io
+      name: MOSIP
+    name: datashare
+    type: application
+    urls:
+    - https://tf-nira.github.io/mosip-helm-nira/datashare-12.0.1-1.tgz
+    version: 12.0.1-1
   dslorchestrator:
   - apiVersion: v2
     created: "2024-05-27T14:08:54.007620562+03:00"
@@ -436,6 +778,28 @@ entries:
     urls:
     - https://niragit.github.io/mosip-helm/dslorchestrator-12.0.1.tgz
     version: 12.0.1
+  - apiVersion: v2
+    created: "2024-11-29T06:24:20.301318651Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart to deploy dslorchestrator to test working of MOSIP modules
+    digest: d85c4fde1941ca87804290d292877e5533592578a90fd462e0edb496e9076970
+    home: https://mosip.io
+    keywords:
+    - mosip
+    - dslorchestrator
+    maintainers:
+    - email: info@mosip.io
+      name: MOSIP
+    name: dslorchestrator
+    type: application
+    urls:
+    - https://tf-nira.github.io/mosip-helm-nira/dslorchestrator-12.0.1-1.tgz
+    version: 12.0.1-1
   gc-util:
   - apiVersion: v2
     created: "2024-05-27T14:08:54.011990962+03:00"
@@ -460,6 +824,29 @@ entries:
     urls:
     - https://niragit.github.io/mosip-helm/gc-util-12.0.1.tgz
     version: 12.0.1
+  - apiVersion: v2
+    created: "2024-11-29T06:24:20.303316851Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart to clear completed jobs from the kubernetes cluster
+    digest: 52e2ac866e908b7d4eca96a50efe64e10254dd70bf43847d8b35e72a04390acd
+    home: https://mosip.io
+    keywords:
+    - mosip
+    - deletecron
+    - gcutil
+    maintainers:
+    - email: info@mosip.io
+      name: MOSIP
+    name: gc-util
+    type: application
+    urls:
+    - https://tf-nira.github.io/mosip-helm-nira/gc-util-12.0.1-1.tgz
+    version: 12.0.1-1
   ida-auth:
   - apiVersion: v2
     created: "2024-05-27T14:08:54.019832457+03:00"
@@ -484,6 +871,29 @@ entries:
     urls:
     - https://niragit.github.io/mosip-helm/ida-auth-12.0.1.tgz
     version: 12.0.1
+  - apiVersion: v2
+    created: "2024-11-29T06:24:20.304729348Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart for MOSIP IDA module
+    digest: 8aba4168014e0a89b6760264e5784be93729b61b4de5a3eaf1f4451f7d8fbe44
+    home: https://mosip.io
+    keywords:
+    - mosip
+    - ida-auth
+    - ida
+    maintainers:
+    - email: info@mosip.io
+      name: MOSIP
+    name: ida-auth
+    type: application
+    urls:
+    - https://tf-nira.github.io/mosip-helm-nira/ida-auth-12.0.1-1.tgz
+    version: 12.0.1-1
   ida-internal:
   - apiVersion: v2
     created: "2024-05-27T14:08:54.027573578+03:00"
@@ -508,6 +918,29 @@ entries:
     urls:
     - https://niragit.github.io/mosip-helm/ida-internal-12.0.1.tgz
     version: 12.0.1
+  - apiVersion: v2
+    created: "2024-11-29T06:24:20.306045474Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart for MOSIP IDA module
+    digest: 2df6b57a4564bab984401f0ea1546f3fcfed1ceac0716a7f9e4dae06333eda5a
+    home: https://mosip.io
+    keywords:
+    - mosip
+    - ida-internal
+    - ida
+    maintainers:
+    - email: info@mosip.io
+      name: MOSIP
+    name: ida-internal
+    type: application
+    urls:
+    - https://tf-nira.github.io/mosip-helm-nira/ida-internal-12.0.1-1.tgz
+    version: 12.0.1-1
   ida-otp:
   - apiVersion: v2
     created: "2024-05-27T14:08:54.033043644+03:00"
@@ -532,6 +965,29 @@ entries:
     urls:
     - https://niragit.github.io/mosip-helm/ida-otp-12.0.1.tgz
     version: 12.0.1
+  - apiVersion: v2
+    created: "2024-11-29T06:24:20.307331776Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart for MOSIP IDA module
+    digest: 3cb4e1b8914d2069bd9e80d7f42ad431a8539c02a2ee44032a37ebbaba6bb941
+    home: https://mosip.io
+    keywords:
+    - mosip
+    - ida-otp
+    - ida
+    maintainers:
+    - email: info@mosip.io
+      name: MOSIP
+    name: ida-otp
+    type: application
+    urls:
+    - https://tf-nira.github.io/mosip-helm-nira/ida-otp-12.0.1-1.tgz
+    version: 12.0.1-1
   identity:
   - apiVersion: v2
     created: "2024-05-27T14:08:54.037502229+03:00"
@@ -556,6 +1012,29 @@ entries:
     urls:
     - https://niragit.github.io/mosip-helm/identity-12.0.1.tgz
     version: 12.0.1
+  - apiVersion: v2
+    created: "2024-11-29T06:24:20.308684691Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart for MOSIP IDRepo Identity Service
+    digest: 1c425f67184ffdd8e8077ea1458e14699dad586a4d76d5b5bb09a66a0b607f80
+    home: https://mosip.io
+    keywords:
+    - mosip
+    - identity
+    - kernel
+    maintainers:
+    - email: info@mosip.io
+      name: MOSIP
+    name: identity
+    type: application
+    urls:
+    - https://tf-nira.github.io/mosip-helm-nira/identity-12.0.1-1.tgz
+    version: 12.0.1-1
   idgenerator:
   - apiVersion: v2
     created: "2024-05-27T14:08:54.043248503+03:00"
@@ -580,6 +1059,29 @@ entries:
     urls:
     - https://niragit.github.io/mosip-helm/idgenerator-12.0.1.tgz
     version: 12.0.1
+  - apiVersion: v2
+    created: "2024-11-29T06:24:20.310673919Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart for MOSIP Idgenerator module
+    digest: e289d53a3869cf716e159fd1f3de4dbd238d20f741f80fd21ab6c1a6b0a28389
+    home: https://mosip.io
+    keywords:
+    - mosip
+    - idgenerator
+    - kernel
+    maintainers:
+    - email: info@mosip.io
+      name: MOSIP
+    name: idgenerator
+    type: application
+    urls:
+    - https://tf-nira.github.io/mosip-helm-nira/idgenerator-12.0.1-1.tgz
+    version: 12.0.1-1
   idrepo-saltgen:
   - apiVersion: v2
     created: "2024-05-27T14:08:54.047579171+03:00"
@@ -604,6 +1106,29 @@ entries:
     urls:
     - https://niragit.github.io/mosip-helm/idrepo-saltgen-12.0.1.tgz
     version: 12.0.1
+  - apiVersion: v2
+    created: "2024-11-29T06:24:20.311810088Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart to generate salt for ID Repo.
+    digest: f8a566c8c167b6962566faa39619b573bc5e421d39e255d40fe8af4d78d7910a
+    home: https://mosip.io
+    keywords:
+    - mosip
+    - idrepo
+    - salt
+    maintainers:
+    - email: info@mosip.io
+      name: MOSIP
+    name: idrepo-saltgen
+    type: application
+    urls:
+    - https://tf-nira.github.io/mosip-helm-nira/idrepo-saltgen-12.0.1-1.tgz
+    version: 12.0.1-1
   keycloak-init:
   - apiVersion: v2
     appVersion: 1.2.0
@@ -629,6 +1154,30 @@ entries:
     urls:
     - https://niragit.github.io/mosip-helm/keycloak-init-12.0.1.tgz
     version: 12.0.1
+  - apiVersion: v2
+    appVersion: 1.2.0
+    created: "2024-11-29T06:24:20.314005603Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart for Kubernetes to initialize Keycloak  (updating for
+      test)
+    digest: 83d5cf867a9f26202374a1b659504e970d806df22f76e94f0107af7f7b0a1807
+    home: https://mosip.io
+    keywords:
+    - keycloak
+    - access-management
+    maintainers:
+    - email: info@mosip.io
+      name: MOSIP
+    name: keycloak-init
+    type: application
+    urls:
+    - https://tf-nira.github.io/mosip-helm-nira/keycloak-init-12.0.1-1.tgz
+    version: 12.0.1-1
   keygen:
   - apiVersion: v2
     created: "2024-05-27T14:08:54.060208527+03:00"
@@ -654,6 +1203,30 @@ entries:
     urls:
     - https://niragit.github.io/mosip-helm/keygen-12.0.1.tgz
     version: 12.0.1
+  - apiVersion: v2
+    created: "2024-11-29T06:24:20.315089044Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart to generate keys
+    digest: c673deef1f99310fa177c0d8a2950d8fd92a9ad8281d8a447f88193ee7020ea6
+    home: https://mosip.io
+    keywords:
+    - mosip
+    - keymanager
+    - keygen
+    - kernel
+    maintainers:
+    - email: info@mosip.io
+      name: MOSIP
+    name: keygen
+    type: application
+    urls:
+    - https://tf-nira.github.io/mosip-helm-nira/keygen-12.0.1-1.tgz
+    version: 12.0.1-1
   keymanager:
   - apiVersion: v2
     created: "2024-05-27T14:08:54.065179929+03:00"
@@ -678,6 +1251,29 @@ entries:
     urls:
     - https://niragit.github.io/mosip-helm/keymanager-12.0.1.tgz
     version: 12.0.1
+  - apiVersion: v2
+    created: "2024-11-29T06:24:20.316433113Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart for MOSIP Keymanager module
+    digest: 6ecd15acf6ae3047719416531acb2151f517babbb7280ace8e5abafd0196c4e4
+    home: https://mosip.io
+    keywords:
+    - mosip
+    - keymanager
+    - kernel
+    maintainers:
+    - email: info@mosip.io
+      name: MOSIP
+    name: keymanager
+    type: application
+    urls:
+    - https://tf-nira.github.io/mosip-helm-nira/keymanager-12.0.1-1.tgz
+    version: 12.0.1-1
   landing-page:
   - apiVersion: v2
     created: "2024-05-27T14:08:54.070436613+03:00"
@@ -703,6 +1299,30 @@ entries:
     urls:
     - https://niragit.github.io/mosip-helm/landing-page-12.0.1.tgz
     version: 12.0.1
+  - apiVersion: v2
+    created: "2024-11-29T06:24:20.318515243Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart to installed Downloader for Regstration Client Application
+    digest: 4c7ea7ae1cb8f99d82b3d0befcbfc374da50c6514cf307c6454de53e388ce1b9
+    home: https://mosip.io
+    keywords:
+    - mosip
+    - landing-page
+    - registration
+    - client
+    maintainers:
+    - email: info@mosip.io
+      name: MOSIP
+    name: landing-page
+    type: application
+    urls:
+    - https://tf-nira.github.io/mosip-helm-nira/landing-page-12.0.1-1.tgz
+    version: 12.0.1-1
   masterdata:
   - apiVersion: v2
     created: "2024-05-27T14:08:54.076630149+03:00"
@@ -727,6 +1347,29 @@ entries:
     urls:
     - https://niragit.github.io/mosip-helm/masterdata-12.0.1.tgz
     version: 12.0.1
+  - apiVersion: v2
+    created: "2024-11-29T06:24:20.319855465Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart for MOSIP Masterdata module
+    digest: 41897a3615fca15c24f05f940e3e3a6c84809f06c9d18d975e91ba1d4f1935cb
+    home: https://mosip.io
+    keywords:
+    - mosip
+    - masterdata
+    - kernel
+    maintainers:
+    - email: info@mosip.io
+      name: MOSIP
+    name: masterdata
+    type: application
+    urls:
+    - https://tf-nira.github.io/mosip-helm-nira/masterdata-12.0.1-1.tgz
+    version: 12.0.1-1
   masterdata-loader:
   - apiVersion: v2
     appVersion: 1.2.0
@@ -752,6 +1395,30 @@ entries:
     urls:
     - https://tf-nira.github.io/mosip-helm-nira/masterdata-loader-12.0.1.tgz
     version: 12.0.1
+  - apiVersion: v2
+    appVersion: 1.2.0
+    created: "2024-11-29T06:24:20.320761082Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart to upload default masterdata to mosip_master DB.
+    digest: 7aab5645d2553e72b969e999e0d2f59b4cc58a9c6a96acda72cd6239aaf09790
+    home: https://mosip.io
+    keywords:
+    - postgres
+    - db
+    - database
+    maintainers:
+    - email: info@mosip.io
+      name: MOSIP
+    name: masterdata-loader
+    type: application
+    urls:
+    - https://tf-nira.github.io/mosip-helm-nira/masterdata-loader-12.0.1-1.tgz
+    version: 12.0.1-1
   minio-client-util:
   - apiVersion: v2
     created: "2024-05-27T14:08:54.083608832+03:00"
@@ -800,6 +1467,29 @@ entries:
     urls:
     - https://niragit.github.io/mosip-helm/mock-abis-12.0.1.tgz
     version: 12.0.1
+  - apiVersion: v2
+    created: "2024-11-29T06:24:20.322082118Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart for MOSIP Mock ABIS
+    digest: c9eef5f5ddcfc508527cab0a150a11e4fdbb04bd145df0c22d4534fd58e83118
+    home: https://mosip.io
+    keywords:
+    - mosip
+    - mock-abis
+    - abis
+    maintainers:
+    - email: info@mosip.io
+      name: MOSIP
+    name: mock-abis
+    type: application
+    urls:
+    - https://tf-nira.github.io/mosip-helm-nira/mock-abis-12.0.1-1.tgz
+    version: 12.0.1-1
   mock-mv:
   - apiVersion: v2
     created: "2024-05-27T14:08:54.09265617+03:00"
@@ -824,6 +1514,29 @@ entries:
     urls:
     - https://niragit.github.io/mosip-helm/mock-mv-12.0.1.tgz
     version: 12.0.1
+  - apiVersion: v2
+    created: "2024-11-29T06:24:20.323439212Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart for MOSIP Mock Manual Verification service
+    digest: 13577cceca4e706b08f4502598a9293b66273825df9d6c4358c1dedf2adf8b4d
+    home: https://mosip.io
+    keywords:
+    - mosip
+    - mock-mv
+    - regproc
+    maintainers:
+    - email: info@mosip.io
+      name: MOSIP
+    name: mock-mv
+    type: application
+    urls:
+    - https://tf-nira.github.io/mosip-helm-nira/mock-mv-12.0.1-1.tgz
+    version: 12.0.1-1
   mock-smtp:
   - apiVersion: v2
     created: "2024-05-27T14:08:54.097332959+03:00"
@@ -871,6 +1584,29 @@ entries:
     urls:
     - https://tf-nira.github.io/mosip-helm-nira/mosip-file-server-12.0.1.tgz
     version: 12.0.1
+  - apiVersion: v2
+    created: "2024-11-29T06:24:20.325824594Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart to file server application.
+    digest: 3491eb766cfdf4dce9408bdd0739b8ae61648cd468c3e04757619c09c540b8ea
+    home: https://mosip.io
+    keywords:
+    - mosip
+    - mosip-file-server
+    - fileserver
+    maintainers:
+    - email: info@mosip.io
+      name: MOSIP
+    name: mosip-file-server
+    type: application
+    urls:
+    - https://tf-nira.github.io/mosip-helm-nira/mosip-file-server-12.0.1-1.tgz
+    version: 12.0.1-1
   nira-payment-gateway:
   - apiVersion: v2
     created: "2024-06-04T12:55:47.437110154Z"
@@ -919,6 +1655,29 @@ entries:
     urls:
     - https://niragit.github.io/mosip-helm/notifier-12.0.1.tgz
     version: 12.0.1
+  - apiVersion: v2
+    created: "2024-11-29T06:24:20.327183201Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart for MOSIP Notifier module
+    digest: 2562198ee3b258cb13a2f6351a4a11876d9703e54d47eb2c025312abe9f4f15b
+    home: https://mosip.io
+    keywords:
+    - mosip
+    - notifier
+    - kernel
+    maintainers:
+    - email: info@mosip.io
+      name: MOSIP
+    name: notifier
+    type: application
+    urls:
+    - https://tf-nira.github.io/mosip-helm-nira/notifier-12.0.1-1.tgz
+    version: 12.0.1-1
   opencrvs-mediator:
   - apiVersion: v2
     created: "2024-05-27T14:08:54.118524014+03:00"
@@ -944,6 +1703,30 @@ entries:
     urls:
     - https://niragit.github.io/mosip-helm/opencrvs-mediator-12.0.1.tgz
     version: 12.0.1
+  - apiVersion: v2
+    created: "2024-11-29T06:24:20.328608752Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart for mosip-opencrvs mediator.
+    digest: 8b83026caa60af3d02f9c7dcb9d71a6dfc7bbb27781fe494640570d7933fcb0d
+    home: https://mosip.io
+    keywords:
+    - mosip
+    - mosip-opencrvs-mediator
+    - opencrvs-mediator
+    - opencrvs
+    maintainers:
+    - email: info@mosip.io
+      name: MOSIP
+    name: opencrvs-mediator
+    type: application
+    urls:
+    - https://tf-nira.github.io/mosip-helm-nira/opencrvs-mediator-12.0.1-1.tgz
+    version: 12.0.1-1
   otpmanager:
   - apiVersion: v2
     created: "2024-05-27T14:08:54.124104711+03:00"
@@ -968,6 +1751,29 @@ entries:
     urls:
     - https://niragit.github.io/mosip-helm/otpmanager-12.0.1.tgz
     version: 12.0.1
+  - apiVersion: v2
+    created: "2024-11-29T06:24:20.329950226Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart for MOSIP OTPManager module
+    digest: 3c6142aa6ff2ac4c0eae96dda7d4859847a386732dc0ed1959eab9a929909c80
+    home: https://mosip.io
+    keywords:
+    - mosip
+    - otpmanager
+    - kernel
+    maintainers:
+    - email: info@mosip.io
+      name: MOSIP
+    name: otpmanager
+    type: application
+    urls:
+    - https://tf-nira.github.io/mosip-helm-nira/otpmanager-12.0.1-1.tgz
+    version: 12.0.1-1
   packetcreator:
   - apiVersion: v2
     created: "2024-05-27T14:08:54.129334085+03:00"
@@ -991,6 +1797,28 @@ entries:
     urls:
     - https://niragit.github.io/mosip-helm/packetcreator-12.0.1.tgz
     version: 12.0.1
+  - apiVersion: v2
+    created: "2024-11-29T06:24:20.331322518Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart for DSL orchestrator
+    digest: c6bfd625b93212ff460d899d6024bb560dd31c7d53d2d13850324f6a9233049e
+    home: https://mosip.io
+    keywords:
+    - mosip
+    - packetcreator
+    maintainers:
+    - email: info@mosip.io
+      name: MOSIP
+    name: packetcreator
+    type: application
+    urls:
+    - https://tf-nira.github.io/mosip-helm-nira/packetcreator-12.0.1-1.tgz
+    version: 12.0.1-1
   packetmanager:
   - apiVersion: v2
     created: "2024-05-27T14:08:54.134030102+03:00"
@@ -1015,6 +1843,29 @@ entries:
     urls:
     - https://niragit.github.io/mosip-helm/packetmanager-12.0.1.tgz
     version: 12.0.1
+  - apiVersion: v2
+    created: "2024-11-29T06:24:20.333605903Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart for MOSIP Packetmanager module
+    digest: e4df979007ee5dbda533a53961923d96212545e0e35158bc8cf7027a951d0d48
+    home: https://mosip.io
+    keywords:
+    - mosip
+    - packetmanager
+    - kernel
+    maintainers:
+    - email: info@mosip.io
+      name: MOSIP
+    name: packetmanager
+    type: application
+    urls:
+    - https://tf-nira.github.io/mosip-helm-nira/packetmanager-12.0.1-1.tgz
+    version: 12.0.1-1
   partner-onboarder:
   - apiVersion: v2
     created: "2024-05-27T14:08:54.140666838+03:00"
@@ -1039,6 +1890,29 @@ entries:
     urls:
     - https://niragit.github.io/mosip-helm/partner-onboarder-12.0.1.tgz
     version: 12.0.1
+  - apiVersion: v2
+    created: "2024-11-29T06:24:20.335121464Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart for onboarding default partners for MOSIP sandbox.
+    digest: 53077696b28ac75103495c1fc819005c6d77f0f8059581d61b10139820537387
+    home: https://mosip.io
+    keywords:
+    - mosip
+    - partner-onboarder
+    - partners
+    maintainers:
+    - email: info@mosip.io
+      name: MOSIP
+    name: partner-onboarder
+    type: application
+    urls:
+    - https://tf-nira.github.io/mosip-helm-nira/partner-onboarder-12.0.1-1.tgz
+    version: 12.0.1-1
   pmp-ui:
   - apiVersion: v2
     created: "2024-05-27T14:08:54.145309229+03:00"
@@ -1062,6 +1936,28 @@ entries:
     urls:
     - https://niragit.github.io/mosip-helm/pmp-ui-12.0.1.tgz
     version: 12.0.1
+  - apiVersion: v2
+    created: "2024-11-29T06:24:20.33649641Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart for MOSIP pmp UI module
+    digest: 527ac5b279ad15d5699daa6e479f45311da3bb5ae2c2cfa283b53cf42ae91afb
+    home: https://mosip.io
+    keywords:
+    - mosip
+    - pmp
+    maintainers:
+    - email: info@mosip.io
+      name: MOSIP
+    name: pmp-ui
+    type: application
+    urls:
+    - https://tf-nira.github.io/mosip-helm-nira/pmp-ui-12.0.1-1.tgz
+    version: 12.0.1-1
   pms-migration-utility:
   - apiVersion: v2
     created: "2024-05-27T14:08:54.149634367+03:00"
@@ -1109,6 +2005,29 @@ entries:
     urls:
     - https://niragit.github.io/mosip-helm/pms-partner-12.0.1.tgz
     version: 12.0.1
+  - apiVersion: v2
+    created: "2024-11-29T06:24:20.337862731Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart for MOSIP Partner Management Service Partner service
+    digest: d581b0bbc86ddfcf8688e9493fabc595711e1ade0fc4092f906c40e300273416
+    home: https://mosip.io
+    keywords:
+    - mosip
+    - pms-partner
+    - kernel
+    maintainers:
+    - email: info@mosip.io
+      name: MOSIP
+    name: pms-partner
+    type: application
+    urls:
+    - https://tf-nira.github.io/mosip-helm-nira/pms-partner-12.0.1-1.tgz
+    version: 12.0.1-1
   pms-policy:
   - apiVersion: v2
     created: "2024-05-27T14:08:54.159013139+03:00"
@@ -1133,6 +2052,29 @@ entries:
     urls:
     - https://niragit.github.io/mosip-helm/pms-policy-12.0.1.tgz
     version: 12.0.1
+  - apiVersion: v2
+    created: "2024-11-29T06:24:20.339202542Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart for MOSIP Packetmanager module
+    digest: f3eab7f141e64d28cb2c0cb2715282983ae34138d43d999283cbb39a472eff8c
+    home: https://mosip.io
+    keywords:
+    - mosip
+    - pms-policy
+    - kernel
+    maintainers:
+    - email: info@mosip.io
+      name: MOSIP
+    name: pms-policy
+    type: application
+    urls:
+    - https://tf-nira.github.io/mosip-helm-nira/pms-policy-12.0.1-1.tgz
+    version: 12.0.1-1
   postgres-init:
   - apiVersion: v2
     appVersion: 1.2.0
@@ -1158,6 +2100,30 @@ entries:
     urls:
     - https://niragit.github.io/mosip-helm/postgres-init-12.0.1.tgz
     version: 12.0.1
+  - apiVersion: v2
+    appVersion: 1.2.0
+    created: "2024-11-29T06:24:20.341641045Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart for Kubernetes to initialize various Postgres DBs.
+    digest: 25230ee5e3c178d044c3da475c76c7a3ffd55fd395f2e8f44f113ff6c6e2844b
+    home: https://mosip.io
+    keywords:
+    - postgres
+    - db
+    - database
+    maintainers:
+    - email: info@mosip.io
+      name: MOSIP
+    name: postgres-init
+    type: application
+    urls:
+    - https://tf-nira.github.io/mosip-helm-nira/postgres-init-12.0.1-1.tgz
+    version: 12.0.1-1
   postgres-upgrade:
   - apiVersion: v2
     appVersion: 1.2.0
@@ -1183,6 +2149,30 @@ entries:
     urls:
     - https://niragit.github.io/mosip-helm/postgres-upgrade-12.0.1.tgz
     version: 12.0.1
+  - apiVersion: v2
+    appVersion: 1.2.0
+    created: "2024-11-29T06:24:20.342592017Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart for Kubernetes to Upgrade various Postgres DBs.
+    digest: aa1e77a7b6195025be0edb385117ed5f07ba52819cad339096f9860ac9488954
+    home: https://mosip.io
+    keywords:
+    - postgres-upgrade
+    - db-upgrade
+    - database
+    maintainers:
+    - email: info@mosip.io
+      name: MOSIP
+    name: postgres-upgrade
+    type: application
+    urls:
+    - https://tf-nira.github.io/mosip-helm-nira/postgres-upgrade-12.0.1-1.tgz
+    version: 12.0.1-1
   prereg-application:
   - apiVersion: v2
     created: "2024-05-27T14:08:54.17784384+03:00"
@@ -1207,6 +2197,29 @@ entries:
     urls:
     - https://niragit.github.io/mosip-helm/prereg-application-12.0.1.tgz
     version: 12.0.1
+  - apiVersion: v2
+    created: "2024-11-29T06:24:20.344103741Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart for MOSIP Pre-registration Application service
+    digest: 878bf27bc1d704625057dd88ee3f2e23ab79cc3ffc20005b25743fd117723f80
+    home: https://mosip.io
+    keywords:
+    - mosip
+    - prereg-application
+    - kernel
+    maintainers:
+    - email: info@mosip.io
+      name: MOSIP
+    name: prereg-application
+    type: application
+    urls:
+    - https://tf-nira.github.io/mosip-helm-nira/prereg-application-12.0.1-1.tgz
+    version: 12.0.1-1
   prereg-batchjob:
   - apiVersion: v2
     created: "2024-05-27T14:08:54.185948373+03:00"
@@ -1231,6 +2244,29 @@ entries:
     urls:
     - https://niragit.github.io/mosip-helm/prereg-batchjob-12.0.1.tgz
     version: 12.0.1
+  - apiVersion: v2
+    created: "2024-11-29T06:24:20.345395602Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart for MOSIP Pre-registration Batchjob service
+    digest: 61d29284dbde6395a2ee70a52bc2d995a06a247afe94115baa55913d3a29d984
+    home: https://mosip.io
+    keywords:
+    - mosip
+    - prereg-batchjob
+    - kernel
+    maintainers:
+    - email: info@mosip.io
+      name: MOSIP
+    name: prereg-batchjob
+    type: application
+    urls:
+    - https://tf-nira.github.io/mosip-helm-nira/prereg-batchjob-12.0.1-1.tgz
+    version: 12.0.1-1
   prereg-booking:
   - apiVersion: v2
     created: "2024-05-27T14:08:54.193983567+03:00"
@@ -1255,6 +2291,29 @@ entries:
     urls:
     - https://niragit.github.io/mosip-helm/prereg-booking-12.0.1.tgz
     version: 12.0.1
+  - apiVersion: v2
+    created: "2024-11-29T06:24:20.34669115Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart for MOSIP Pre-registration application service
+    digest: 8364c5409bec1ac15edf68d9c58d5d3f3a8b9a1d93860922514aff570b9ca9eb
+    home: https://mosip.io
+    keywords:
+    - mosip
+    - prereg-booking
+    - kernel
+    maintainers:
+    - email: info@mosip.io
+      name: MOSIP
+    name: prereg-booking
+    type: application
+    urls:
+    - https://tf-nira.github.io/mosip-helm-nira/prereg-booking-12.0.1-1.tgz
+    version: 12.0.1-1
   prereg-captcha:
   - apiVersion: v2
     created: "2024-05-27T14:08:54.201975966+03:00"
@@ -1279,6 +2338,29 @@ entries:
     urls:
     - https://niragit.github.io/mosip-helm/prereg-captcha-12.0.1.tgz
     version: 12.0.1
+  - apiVersion: v2
+    created: "2024-11-29T06:24:20.348021263Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart for MOSIP Pre-registration Captcha Service
+    digest: 7102460adea095186c43b5ff908fd51d6f32cb536c6a8bccad1615141079c65c
+    home: https://mosip.io
+    keywords:
+    - mosip
+    - prereg-captcha
+    - prereg
+    maintainers:
+    - email: info@mosip.io
+      name: MOSIP
+    name: prereg-captcha
+    type: application
+    urls:
+    - https://tf-nira.github.io/mosip-helm-nira/prereg-captcha-12.0.1-1.tgz
+    version: 12.0.1-1
   prereg-datasync:
   - apiVersion: v2
     created: "2024-05-27T14:08:54.207702604+03:00"
@@ -1302,6 +2384,28 @@ entries:
     urls:
     - https://niragit.github.io/mosip-helm/prereg-datasync-12.0.1.tgz
     version: 12.0.1
+  - apiVersion: v2
+    created: "2024-11-29T06:24:20.350187575Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart for MOSIP Pre-registration Datasync service
+    digest: c015c00075de2f41ea86d9eeea78b3cc3c4830a30d5111632ae450bb3c6718e8
+    home: https://mosip.io
+    keywords:
+    - mosip
+    - prereg-datasync
+    maintainers:
+    - email: info@mosip.io
+      name: MOSIP
+    name: prereg-datasync
+    type: application
+    urls:
+    - https://tf-nira.github.io/mosip-helm-nira/prereg-datasync-12.0.1-1.tgz
+    version: 12.0.1-1
   prereg-gateway:
   - apiVersion: v2
     created: "2024-05-27T14:08:54.211808728+03:00"
@@ -1326,6 +2430,29 @@ entries:
     urls:
     - https://niragit.github.io/mosip-helm/prereg-gateway-12.0.1.tgz
     version: 12.0.1
+  - apiVersion: v2
+    created: "2024-11-29T06:24:20.351404245Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart for MOSIP Pre-registration Istio Gateway
+    digest: b7263e0fe1476a3dd6ab43efb71ea9ea048734e95ef0fdeebe0564080039616c
+    home: https://mosip.io
+    keywords:
+    - mosip
+    - prereg-gateway
+    - kernel
+    maintainers:
+    - email: info@mosip.io
+      name: MOSIP
+    name: prereg-gateway
+    type: application
+    urls:
+    - https://tf-nira.github.io/mosip-helm-nira/prereg-gateway-12.0.1-1.tgz
+    version: 12.0.1-1
   prereg-ui:
   - apiVersion: v2
     created: "2024-05-27T14:08:54.218382975+03:00"
@@ -1350,6 +2477,29 @@ entries:
     urls:
     - https://niragit.github.io/mosip-helm/prereg-ui-12.0.1.tgz
     version: 12.0.1
+  - apiVersion: v2
+    created: "2024-11-29T06:24:20.35271379Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart for MOSIP Pre-registration UI
+    digest: 082ee927fe1e668da47ddd51eadf657ff2c4592f7e1257a71d2a8ceae119af7c
+    home: https://mosip.io
+    keywords:
+    - mosip
+    - prereg-ui
+    - kernel
+    maintainers:
+    - email: info@mosip.io
+      name: MOSIP
+    name: prereg-ui
+    type: application
+    urls:
+    - https://tf-nira.github.io/mosip-helm-nira/prereg-ui-12.0.1-1.tgz
+    version: 12.0.1-1
   pridgenerator:
   - apiVersion: v2
     created: "2024-05-27T14:08:54.224502961+03:00"
@@ -1374,6 +2524,29 @@ entries:
     urls:
     - https://niragit.github.io/mosip-helm/pridgenerator-12.0.1.tgz
     version: 12.0.1
+  - apiVersion: v2
+    created: "2024-11-29T06:24:20.353993668Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart for MOSIP PRIDgenerator module
+    digest: 378a44d192d1ad4dc93f270f56ee778b896d2f26657b29c37d0bb0d1f95e39d3
+    home: https://mosip.io
+    keywords:
+    - mosip
+    - pridgenerator
+    - kernel
+    maintainers:
+    - email: info@mosip.io
+      name: MOSIP
+    name: pridgenerator
+    type: application
+    urls:
+    - https://tf-nira.github.io/mosip-helm-nira/pridgenerator-12.0.1-1.tgz
+    version: 12.0.1-1
   print-service:
   - apiVersion: v2
     created: "2024-05-27T14:08:54.229488549+03:00"
@@ -1398,6 +2571,29 @@ entries:
     urls:
     - https://niragit.github.io/mosip-helm/print-service-12.0.1.tgz
     version: 12.0.1
+  - apiVersion: v2
+    created: "2024-11-29T06:24:20.35526991Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart for sample Print Service
+    digest: 867f02123ad2b6521c071b60f5075c5392e11130aee8cdec363cec14ce9bd302
+    home: https://mosip.io
+    keywords:
+    - mosip
+    - print-service
+    - kernel
+    maintainers:
+    - email: info@mosip.io
+      name: MOSIP
+    name: print-service
+    type: application
+    urls:
+    - https://tf-nira.github.io/mosip-helm-nira/print-service-12.0.1-1.tgz
+    version: 12.0.1-1
   regclient:
   - apiVersion: v2
     created: "2024-05-27T14:08:54.24454948+03:00"
@@ -1423,6 +2619,30 @@ entries:
     urls:
     - https://niragit.github.io/mosip-helm/regclient-12.0.1.tgz
     version: 12.0.1
+  - apiVersion: v2
+    created: "2024-11-29T06:24:20.357097976Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart to installed Downloader for Regstration Client Application
+    digest: 7fbeef6bec1256dc84ad2d21c2b4885a4b3320946f8e333f3a4aaf9716c7699a
+    home: https://mosip.io
+    keywords:
+    - mosip
+    - regclient
+    - registration
+    - client
+    maintainers:
+    - email: info@mosip.io
+      name: MOSIP
+    name: regclient
+    type: application
+    urls:
+    - https://tf-nira.github.io/mosip-helm-nira/regclient-12.0.1-1.tgz
+    version: 12.0.1-1
   - apiVersion: v2
     created: "2024-05-27T14:08:54.239708488+03:00"
     dependencies:
@@ -1496,6 +2716,30 @@ entries:
     urls:
     - https://niragit.github.io/mosip-helm/regproc-camel-12.0.1.tgz
     version: 12.0.1
+  - apiVersion: v2
+    created: "2024-11-29T06:24:20.358725995Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart for MOSIP Registration Processor Camel stage
+    digest: e8fdecef52dfb696ccaabf84366ad8ff3f8bf1dceb25179e52bcb2cbc7e46b6b
+    home: https://mosip.io
+    keywords:
+    - mosip
+    - regproc-camel
+    - regproc
+    - camel
+    maintainers:
+    - email: info@mosip.io
+      name: MOSIP
+    name: regproc-camel
+    type: application
+    urls:
+    - https://tf-nira.github.io/mosip-helm-nira/regproc-camel-12.0.1-1.tgz
+    version: 12.0.1-1
   regproc-group1:
   - apiVersion: v2
     created: "2024-05-27T14:08:54.255876324+03:00"
@@ -1520,6 +2764,29 @@ entries:
     urls:
     - https://niragit.github.io/mosip-helm/regproc-group1-12.0.1.tgz
     version: 12.0.1
+  - apiVersion: v2
+    created: "2024-11-29T06:24:20.360084371Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart for MOSIP Registration Processor Group 1
+    digest: 465b86fd5d921ce877289abf495b5d9fb9d4680e6430c8294c5498b4805ea4a6
+    home: https://mosip.io
+    keywords:
+    - mosip
+    - regproc-group1
+    - regproc
+    maintainers:
+    - email: info@mosip.io
+      name: MOSIP
+    name: regproc-group1
+    type: application
+    urls:
+    - https://tf-nira.github.io/mosip-helm-nira/regproc-group1-12.0.1-1.tgz
+    version: 12.0.1-1
   regproc-group2:
   - apiVersion: v2
     created: "2024-05-27T14:08:54.260756546+03:00"
@@ -1544,6 +2811,29 @@ entries:
     urls:
     - https://niragit.github.io/mosip-helm/regproc-group2-12.0.1.tgz
     version: 12.0.1
+  - apiVersion: v2
+    created: "2024-11-29T06:24:20.361481059Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart for MOSIP Registration Processor Group 2 stage
+    digest: 05cd38a6e1f7497fc8494d29bec17a8f24710fcf6d6879d26fffb20e1586595b
+    home: https://mosip.io
+    keywords:
+    - mosip
+    - regproc-group2
+    - regproc
+    maintainers:
+    - email: info@mosip.io
+      name: MOSIP
+    name: regproc-group2
+    type: application
+    urls:
+    - https://tf-nira.github.io/mosip-helm-nira/regproc-group2-12.0.1-1.tgz
+    version: 12.0.1-1
   regproc-group3:
   - apiVersion: v2
     created: "2024-05-27T14:08:54.265613445+03:00"
@@ -1568,6 +2858,29 @@ entries:
     urls:
     - https://niragit.github.io/mosip-helm/regproc-group3-12.0.1.tgz
     version: 12.0.1
+  - apiVersion: v2
+    created: "2024-11-29T06:24:20.362872417Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart for MOSIP Registration Processor Group 3 stage
+    digest: ae9a6d4fd01f6309e27034199c6c596df5178aa44f73b33fbb2bd8afd5c8784f
+    home: https://mosip.io
+    keywords:
+    - mosip
+    - regproc-group3
+    - regproc
+    maintainers:
+    - email: info@mosip.io
+      name: MOSIP
+    name: regproc-group3
+    type: application
+    urls:
+    - https://tf-nira.github.io/mosip-helm-nira/regproc-group3-12.0.1-1.tgz
+    version: 12.0.1-1
   regproc-group4:
   - apiVersion: v2
     created: "2024-05-27T14:08:54.270420207+03:00"
@@ -1592,6 +2905,29 @@ entries:
     urls:
     - https://niragit.github.io/mosip-helm/regproc-group4-12.0.1.tgz
     version: 12.0.1
+  - apiVersion: v2
+    created: "2024-11-29T06:24:20.364313618Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart for MOSIP Registration Processor Group 4
+    digest: 048f5c5538b2c31d97eba6b66592f3fb1bef693ac34c86448ff1b3331fae80bb
+    home: https://mosip.io
+    keywords:
+    - mosip
+    - regproc-group4
+    - regproc
+    maintainers:
+    - email: info@mosip.io
+      name: MOSIP
+    name: regproc-group4
+    type: application
+    urls:
+    - https://tf-nira.github.io/mosip-helm-nira/regproc-group4-12.0.1-1.tgz
+    version: 12.0.1-1
   regproc-group5:
   - apiVersion: v2
     created: "2024-05-27T14:08:54.275344058+03:00"
@@ -1616,6 +2952,29 @@ entries:
     urls:
     - https://niragit.github.io/mosip-helm/regproc-group5-12.0.1.tgz
     version: 12.0.1
+  - apiVersion: v2
+    created: "2024-11-29T06:24:20.366582477Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart for MOSIP Registration Processor Group 5
+    digest: d744e9b4efdad2aaa6c9d6361da537f25c5c8a1d55157c612a4760d78e740f33
+    home: https://mosip.io
+    keywords:
+    - mosip
+    - regproc-group5
+    - regproc
+    maintainers:
+    - email: info@mosip.io
+      name: MOSIP
+    name: regproc-group5
+    type: application
+    urls:
+    - https://tf-nira.github.io/mosip-helm-nira/regproc-group5-12.0.1-1.tgz
+    version: 12.0.1-1
   regproc-group6:
   - apiVersion: v2
     created: "2024-05-27T14:08:54.281407921+03:00"
@@ -1640,6 +2999,29 @@ entries:
     urls:
     - https://niragit.github.io/mosip-helm/regproc-group6-12.0.1.tgz
     version: 12.0.1
+  - apiVersion: v2
+    created: "2024-11-29T06:24:20.36801933Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart for MOSIP Registration Processor Group 6
+    digest: 06dbd7416185c7292093312f2adb3fd54603985e68af98aa5fa2c75adb5fb9cb
+    home: https://mosip.io
+    keywords:
+    - mosip
+    - regproc-group6
+    - regproc
+    maintainers:
+    - email: info@mosip.io
+      name: MOSIP
+    name: regproc-group6
+    type: application
+    urls:
+    - https://tf-nira.github.io/mosip-helm-nira/regproc-group6-12.0.1-1.tgz
+    version: 12.0.1-1
   regproc-group7:
   - apiVersion: v2
     created: "2024-05-27T14:08:54.286507484+03:00"
@@ -1664,6 +3046,29 @@ entries:
     urls:
     - https://niragit.github.io/mosip-helm/regproc-group7-12.0.1.tgz
     version: 12.0.1
+  - apiVersion: v2
+    created: "2024-11-29T06:24:20.369386282Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart for MOSIP Registration Processor Group 7
+    digest: 08129c59eee33ae99ab64e0f2e830f2d33fc4b7f42ae96f65383f9d144e4f21a
+    home: https://mosip.io
+    keywords:
+    - mosip
+    - regproc-group7
+    - regproc
+    maintainers:
+    - email: info@mosip.io
+      name: MOSIP
+    name: regproc-group7
+    type: application
+    urls:
+    - https://tf-nira.github.io/mosip-helm-nira/regproc-group7-12.0.1-1.tgz
+    version: 12.0.1-1
   regproc-group8:
   - apiVersion: v2
     created: "2024-06-11T10:49:21.427267572Z"
@@ -1738,6 +3143,29 @@ entries:
     urls:
     - https://niragit.github.io/mosip-helm/regproc-notifier-12.0.1.tgz
     version: 12.0.1
+  - apiVersion: v2
+    created: "2024-11-29T06:24:20.370676931Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart for MOSIP Registration Processor Notification Service
+    digest: 0a66fb70b649b3083be9609b0045f455b613cb819f69e6d76f973356d70c3322
+    home: https://mosip.io
+    keywords:
+    - mosip
+    - regproc-notifier
+    - regproc
+    maintainers:
+    - email: info@mosip.io
+      name: MOSIP
+    name: regproc-notifier
+    type: application
+    urls:
+    - https://tf-nira.github.io/mosip-helm-nira/regproc-notifier-12.0.1-1.tgz
+    version: 12.0.1-1
   regproc-opencrvs:
   - apiVersion: v2
     created: "2024-05-27T14:08:54.295193287+03:00"
@@ -1765,6 +3193,32 @@ entries:
     urls:
     - https://niragit.github.io/mosip-helm/regproc-opencrvs-12.0.1.tgz
     version: 12.0.1
+  - apiVersion: v2
+    created: "2024-11-29T06:24:20.371934077Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart for mosip regproc-opencrvs stage.
+    digest: b272382f589f2489f3f6aa95322084943e167a85e7a34d824c51f9fb5f9a6f13
+    home: https://mosip.io
+    keywords:
+    - mosip
+    - mosip-opencrvs-mediator
+    - opencrvs-mediator
+    - regproc-opencrvs
+    - regproc-opencrvs-stage
+    - opencrvs
+    maintainers:
+    - email: info@mosip.io
+      name: MOSIP
+    name: regproc-opencrvs
+    type: application
+    urls:
+    - https://tf-nira.github.io/mosip-helm-nira/regproc-opencrvs-12.0.1-1.tgz
+    version: 12.0.1-1
   regproc-pktserver:
   - apiVersion: v2
     created: "2024-05-27T14:08:54.300975886+03:00"
@@ -1789,6 +3243,29 @@ entries:
     urls:
     - https://niragit.github.io/mosip-helm/regproc-pktserver-12.0.1.tgz
     version: 12.0.1
+  - apiVersion: v2
+    created: "2024-11-29T06:24:20.374243269Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart for MOSIP Registration Processor Packet Server
+    digest: c68cb6620989ec9267bafaede5ce73b25e2334e5258489076d533445299a6a11
+    home: https://mosip.io
+    keywords:
+    - mosip
+    - regproc-pktserver
+    - regproc
+    maintainers:
+    - email: info@mosip.io
+      name: MOSIP
+    name: regproc-pktserver
+    type: application
+    urls:
+    - https://tf-nira.github.io/mosip-helm-nira/regproc-pktserver-12.0.1-1.tgz
+    version: 12.0.1-1
   regproc-reprocess:
   - apiVersion: v2
     created: "2024-05-27T14:08:54.30627741+03:00"
@@ -1813,6 +3290,29 @@ entries:
     urls:
     - https://niragit.github.io/mosip-helm/regproc-reprocess-12.0.1.tgz
     version: 12.0.1
+  - apiVersion: v2
+    created: "2024-11-29T06:24:20.375595955Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart for MOSIP Registration Processor Reprocess stage
+    digest: 8f19395c82d1064db48da58cdb08bf64a2941d5d53c93a01c12f46059e527d7f
+    home: https://mosip.io
+    keywords:
+    - mosip
+    - regproc-reprocess
+    - regproc
+    maintainers:
+    - email: info@mosip.io
+      name: MOSIP
+    name: regproc-reprocess
+    type: application
+    urls:
+    - https://tf-nira.github.io/mosip-helm-nira/regproc-reprocess-12.0.1-1.tgz
+    version: 12.0.1-1
   regproc-salt:
   - apiVersion: v2
     created: "2024-05-27T14:08:54.310167183+03:00"
@@ -1837,6 +3337,29 @@ entries:
     urls:
     - https://niragit.github.io/mosip-helm/regproc-salt-12.0.1.tgz
     version: 12.0.1
+  - apiVersion: v2
+    created: "2024-11-29T06:24:20.376700364Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart to generate keys for Kernel
+    digest: 02de95dbc28a539127d7fe0771cb2047038cd6ecb8ab1d4ca85341c0c62b1f7a
+    home: https://mosip.io
+    keywords:
+    - mosip
+    - regproc-salt
+    - regproc
+    maintainers:
+    - email: info@mosip.io
+      name: MOSIP
+    name: regproc-salt
+    type: application
+    urls:
+    - https://tf-nira.github.io/mosip-helm-nira/regproc-salt-12.0.1-1.tgz
+    version: 12.0.1-1
   regproc-status:
   - apiVersion: v2
     created: "2024-05-27T14:08:54.316641967+03:00"
@@ -1861,6 +3384,29 @@ entries:
     urls:
     - https://niragit.github.io/mosip-helm/regproc-status-12.0.1.tgz
     version: 12.0.1
+  - apiVersion: v2
+    created: "2024-11-29T06:24:20.378019026Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart for MOSIP Registration Processor Status Service
+    digest: db696e2093abe148453cc87d1b7926316040ad95142a447fd97b08fd08e838ac
+    home: https://mosip.io
+    keywords:
+    - mosip
+    - regproc-status
+    - regproc
+    maintainers:
+    - email: info@mosip.io
+      name: MOSIP
+    name: regproc-status
+    type: application
+    urls:
+    - https://tf-nira.github.io/mosip-helm-nira/regproc-status-12.0.1-1.tgz
+    version: 12.0.1-1
   regproc-trans:
   - apiVersion: v2
     created: "2024-05-27T14:08:54.322741397+03:00"
@@ -1885,6 +3431,29 @@ entries:
     urls:
     - https://niragit.github.io/mosip-helm/regproc-trans-12.0.1.tgz
     version: 12.0.1
+  - apiVersion: v2
+    created: "2024-11-29T06:24:20.379322609Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart for MOSIP Registration Processor Transaction Service
+    digest: 7500af148ed177baca0d7917722cf099cde8eec8bd5766deb5953276995e9e47
+    home: https://mosip.io
+    keywords:
+    - mosip
+    - regproc-trans
+    - regproc
+    maintainers:
+    - email: info@mosip.io
+      name: MOSIP
+    name: regproc-trans
+    type: application
+    urls:
+    - https://tf-nira.github.io/mosip-helm-nira/regproc-trans-12.0.1-1.tgz
+    version: 12.0.1-1
   regproc-workflow:
   - apiVersion: v2
     created: "2024-05-27T14:08:54.327918264+03:00"
@@ -1909,6 +3478,29 @@ entries:
     urls:
     - https://niragit.github.io/mosip-helm/regproc-workflow-12.0.1.tgz
     version: 12.0.1
+  - apiVersion: v2
+    created: "2024-11-29T06:24:20.380659324Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart for MOSIP Registration Processor Workflow Manager
+    digest: 2dd4b8838234f591751406519810499da20232f4f77def58453751bdc501702f
+    home: https://mosip.io
+    keywords:
+    - mosip
+    - regproc-workflow
+    - regproc
+    maintainers:
+    - email: info@mosip.io
+      name: MOSIP
+    name: regproc-workflow
+    type: application
+    urls:
+    - https://tf-nira.github.io/mosip-helm-nira/regproc-workflow-12.0.1-1.tgz
+    version: 12.0.1-1
   reporting:
   - apiVersion: v2
     created: "2024-05-27T14:08:54.33206513+03:00"
@@ -1964,6 +3556,28 @@ entries:
     urls:
     - https://niragit.github.io/mosip-helm/resident-12.0.1.tgz
     version: 12.0.1
+  - apiVersion: v2
+    created: "2024-11-29T06:24:20.383170466Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart for MOSIP Resident service
+    digest: 6661128fd3f40300f5d3ef57d7898b7c7f069fcc6151963cd825f01283615656
+    home: https://mosip.io
+    keywords:
+    - mosip
+    - resident
+    maintainers:
+    - email: info@mosip.io
+      name: MOSIP
+    name: resident
+    type: application
+    urls:
+    - https://tf-nira.github.io/mosip-helm-nira/resident-12.0.1-1.tgz
+    version: 12.0.1-1
   resident-ui:
   - apiVersion: v2
     created: "2024-05-27T14:08:54.342785309+03:00"
@@ -2012,6 +3626,29 @@ entries:
     urls:
     - https://niragit.github.io/mosip-helm/restart-cron-12.0.1.tgz
     version: 12.0.1
+  - apiVersion: v2
+    created: "2024-11-29T06:24:20.384061426Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart to deploy cronjob to restart authdemo and packetcreator
+      service and other services.
+    digest: 3741b78fafd5a47a5fbc0ed63d53d2b9fe6b5daa56613af4cd117f1ba9890b20
+    home: https://mosip.io
+    keywords:
+    - mosip
+    - restart-cron
+    maintainers:
+    - email: info@mosip.io
+      name: MOSIP
+    name: restart-cron
+    type: application
+    urls:
+    - https://tf-nira.github.io/mosip-helm-nira/restart-cron-12.0.1-1.tgz
+    version: 12.0.1-1
   ridgenerator:
   - apiVersion: v2
     created: "2024-05-27T14:08:54.351641074+03:00"
@@ -2036,6 +3673,29 @@ entries:
     urls:
     - https://niragit.github.io/mosip-helm/ridgenerator-12.0.1.tgz
     version: 12.0.1
+  - apiVersion: v2
+    created: "2024-11-29T06:24:20.385361442Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart for MOSIP RIDgenerator module
+    digest: 8951f0f41174a054e980e05cc1a234f02b52dd540ae31aadcc053864ba1a0353
+    home: https://mosip.io
+    keywords:
+    - mosip
+    - ridgenerator
+    - kernel
+    maintainers:
+    - email: info@mosip.io
+      name: MOSIP
+    name: ridgenerator
+    type: application
+    urls:
+    - https://tf-nira.github.io/mosip-helm-nira/ridgenerator-12.0.1-1.tgz
+    version: 12.0.1-1
   softhsm:
   - apiVersion: v2
     created: "2024-05-27T14:08:54.355917574+03:00"
@@ -2059,6 +3719,28 @@ entries:
     urls:
     - https://niragit.github.io/mosip-helm/softhsm-12.0.1.tgz
     version: 12.0.1
+  - apiVersion: v2
+    created: "2024-11-29T06:24:20.386441195Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart for MOSIP Softhsm module
+    digest: 6a73e504a1a5dc60041d260c76ded43fef7b69eeb96a6aae0729425eaf212def
+    home: https://mosip.io
+    keywords:
+    - softhsm
+    - hsm
+    maintainers:
+    - email: info@mosip.io
+      name: MOSIP
+    name: softhsm
+    type: application
+    urls:
+    - https://tf-nira.github.io/mosip-helm-nira/softhsm-12.0.1-1.tgz
+    version: 12.0.1-1
   status-check:
   - apiVersion: v2
     created: "2024-05-27T14:08:54.359611995+03:00"
@@ -2082,6 +3764,28 @@ entries:
     urls:
     - https://niragit.github.io/mosip-helm/status-check-12.0.1.tgz
     version: 12.0.1
+  - apiVersion: v2
+    created: "2024-11-29T06:24:20.387333307Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart to deploy status
+    digest: cccb54d77d387b1d65cad899f49a843b74ca450d9c7ce72c6ac0e07e0bf33d59
+    home: https://mosip.io
+    keywords:
+    - mosip
+    - status
+    maintainers:
+    - email: info@mosip.io
+      name: MOSIP
+    name: status-check
+    type: application
+    urls:
+    - https://tf-nira.github.io/mosip-helm-nira/status-check-12.0.1-1.tgz
+    version: 12.0.1-1
   syncdata:
   - apiVersion: v2
     created: "2024-05-27T14:08:54.364901933+03:00"
@@ -2106,6 +3810,29 @@ entries:
     urls:
     - https://niragit.github.io/mosip-helm/syncdata-12.0.1.tgz
     version: 12.0.1
+  - apiVersion: v2
+    created: "2024-11-29T06:24:20.388642381Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart for MOSIP Syncdata module
+    digest: 883943df2a9da3f73eb8da86c736f2eec2656298782cd0872acc7bcd78049afe
+    home: https://mosip.io
+    keywords:
+    - mosip
+    - syncdata
+    - kernel
+    maintainers:
+    - email: info@mosip.io
+      name: MOSIP
+    name: syncdata
+    type: application
+    urls:
+    - https://tf-nira.github.io/mosip-helm-nira/syncdata-12.0.1-1.tgz
+    version: 12.0.1-1
   tusd:
   - apiVersion: v2
     created: "2024-05-27T14:08:54.369715347+03:00"
@@ -2129,6 +3856,28 @@ entries:
     urls:
     - https://niragit.github.io/mosip-helm/tusd-12.0.1.tgz
     version: 12.0.1
+  - apiVersion: v2
+    created: "2024-11-29T06:24:20.390698645Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart to file server application.
+    digest: cf82c4963ae867422c9b6985836a9b10d52bbbb92d38262ebb49865635ecc7bd
+    home: https://mosip.io
+    keywords:
+    - mosip
+    - tusd
+    maintainers:
+    - email: info@mosip.io
+      name: MOSIP
+    name: tusd
+    type: application
+    urls:
+    - https://tf-nira.github.io/mosip-helm-nira/tusd-12.0.1-1.tgz
+    version: 12.0.1-1
   uitestrig:
   - apiVersion: v2
     created: "2024-05-27T14:08:54.375796923+03:00"
@@ -2153,6 +3902,29 @@ entries:
     urls:
     - https://niragit.github.io/mosip-helm/uitestrig-12.0.1.tgz
     version: 12.0.1
+  - apiVersion: v2
+    created: "2024-11-29T06:24:20.392318411Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart to deploy uitestrig to test working of MOSIP modules
+    digest: 83f82c7ec9621c67cb38bb6a728109d7f2b16875cf8414c3fc897b751d2241d0
+    home: https://mosip.io
+    keywords:
+    - mosip
+    - uitestrig
+    - testrig
+    maintainers:
+    - email: info@mosip.io
+      name: MOSIP
+    name: uitestrig
+    type: application
+    urls:
+    - https://tf-nira.github.io/mosip-helm-nira/uitestrig-12.0.1-1.tgz
+    version: 12.0.1-1
   vid:
   - apiVersion: v2
     created: "2024-05-27T14:08:54.38068134+03:00"
@@ -2177,6 +3949,29 @@ entries:
     urls:
     - https://niragit.github.io/mosip-helm/vid-12.0.1.tgz
     version: 12.0.1
+  - apiVersion: v2
+    created: "2024-11-29T06:24:20.393592629Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart for MOSIP IDRepo VID Service
+    digest: bbb786b9b02638f1643f2154cee19cea683b8f32215509d58a589e635567681a
+    home: https://mosip.io
+    keywords:
+    - mosip
+    - vid
+    - kernel
+    maintainers:
+    - email: info@mosip.io
+      name: MOSIP
+    name: vid
+    type: application
+    urls:
+    - https://tf-nira.github.io/mosip-helm-nira/vid-12.0.1-1.tgz
+    version: 12.0.1-1
   websub:
   - apiVersion: v2
     created: "2024-05-27T14:08:54.38691366+03:00"
@@ -2200,6 +3995,28 @@ entries:
     urls:
     - https://niragit.github.io/mosip-helm/websub-12.0.1.tgz
     version: 12.0.1
+  - apiVersion: v2
+    created: "2024-11-29T06:24:20.394865775Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart for Websub service
+    digest: 2cec2db4304a0cd6109df054963b7f59388a4589c2be671cc2c8522a1d39f348
+    home: https://mosip.io
+    keywords:
+    - mosip
+    - websub
+    maintainers:
+    - email: info@mosip.io
+      name: MOSIP
+    name: websub
+    type: application
+    urls:
+    - https://tf-nira.github.io/mosip-helm-nira/websub-12.0.1-1.tgz
+    version: 12.0.1-1
   websub-consolidator:
   - apiVersion: v2
     created: "2024-05-27T14:08:54.391303908+03:00"
@@ -2224,4 +4041,27 @@ entries:
     urls:
     - https://niragit.github.io/mosip-helm/websub-consolidator-12.0.1.tgz
     version: 12.0.1
-generated: "2024-11-28T09:48:30.680679673Z"
+  - apiVersion: v2
+    created: "2024-11-29T06:24:20.396150603Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart for Websub Cconsolidator
+    digest: 114b702d695e15f8d40d337267566b2a7254f07d3dd310ebedd539d09e7bb4c2
+    home: https://mosip.io
+    keywords:
+    - mosip
+    - websub-consolidator
+    - websub
+    maintainers:
+    - email: info@mosip.io
+      name: MOSIP
+    name: websub-consolidator
+    type: application
+    urls:
+    - https://tf-nira.github.io/mosip-helm-nira/websub-consolidator-12.0.1-1.tgz
+    version: 12.0.1-1
+generated: "2024-11-29T06:24:20.275693043Z"
