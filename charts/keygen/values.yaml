@@ -309,4 +309,3 @@ springConfigNameEnv: id-authentication
 ## For Kernel: softhsm-kernel-share
 ## For IDA: softhsm-ida-share
 softHsmCM:
-
