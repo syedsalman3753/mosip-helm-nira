@@ -1639,6 +1639,30 @@ entries:
     urls:
     - https://tf-nira.github.io/mosip-helm-nira/mosip-file-server-12.0.1-1.tgz
     version: 12.0.1-1
+  mvs-service:
+  - apiVersion: v2
+    created: "2025-02-01T12:01:34.659702491Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart for MOSIP Admin module
+    digest: 0589dc44faeb45302e770d30489f462192abb0d4670f95ac726777581608c85d
+    home: https://mosip.io
+    keywords:
+    - mosip
+    - mvs
+    - kernel
+    maintainers:
+    - email: info@mosip.io
+      name: MOSIP
+    name: mvs-service
+    type: application
+    urls:
+    - https://tf-nira.github.io/mosip-helm-nira/mvs-service-12.0.1-pre-production.tgz
+    version: 12.0.1-pre-production
   nira-payment-gateway:
   - apiVersion: v2
     created: "2024-06-04T12:55:47.437110154Z"
@@ -4096,4 +4120,4 @@ entries:
     urls:
     - https://tf-nira.github.io/mosip-helm-nira/websub-consolidator-12.0.1-1.tgz
     version: 12.0.1-1
-generated: "2024-11-29T07:18:52.54748393Z"
+generated: "2025-02-01T12:01:34.657099236Z"
