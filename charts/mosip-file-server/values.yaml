@@ -487,3 +487,10 @@ istio:
 
 # At 00:00 on every 30th day-of-month.
 crontime: '0 0 */30 * *'
+
+autoscaling:
+  enabled: false
+  minReplicas: 1
+  maxReplicas: 3
+  targetCPUUtilizationPercentage: 75
+  targetMemoryUtilizationPercentage: 75

@@ -422,3 +422,10 @@ istio:
     ingressController:
       # for public, istio: ingressgateway && for internal, istio: ingressgateway-internal
       istio: ingressgateway
+
+autoscaling:
+  enabled: false
+  minReplicas: 1
+  maxReplicas: 3
+  targetCPUUtilizationPercentage: 75
+  targetMemoryUtilizationPercentage: 75

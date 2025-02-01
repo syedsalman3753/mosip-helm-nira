@@ -318,3 +318,10 @@ minioclient:
   secrets:
     s3:
       S3_SECRET_KEY: 'minio'
+
+autoscaling:
+  enabled: false
+  minReplicas: 1
+  maxReplicas: 3
+  targetCPUUtilizationPercentage: 75
+  targetMemoryUtilizationPercentage: 75

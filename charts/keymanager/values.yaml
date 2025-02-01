@@ -418,3 +418,10 @@ istio:
   enabled: true
   gateway: istio-system/internal
   prefix: /v1/keymanager
+
+autoscaling:
+  enabled: false
+  minReplicas: 1
+  maxReplicas: 3
+  targetCPUUtilizationPercentage: 75
+  targetMemoryUtilizationPercentage: 75

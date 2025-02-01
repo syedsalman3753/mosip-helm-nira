@@ -415,3 +415,10 @@ istio:
   gateways:
     - istio-system/internal
   prefix: /v1/mock-abis-service
+
+autoscaling:
+  enabled: false
+  minReplicas: 1
+  maxReplicas: 3
+  targetCPUUtilizationPercentage: 75
+  targetMemoryUtilizationPercentage: 75

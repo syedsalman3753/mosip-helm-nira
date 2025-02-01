@@ -449,3 +449,10 @@ istio:
     istio: ingressgateway-internal
   mock_smtp_prefix: '/'
   mock_smtp_websocket_prefix: '/mocksmtp/websocket'
+
+autoscaling:
+  enabled: false
+  minReplicas: 1
+  maxReplicas: 3
+  targetCPUUtilizationPercentage: 75
+  targetMemoryUtilizationPercentage: 75

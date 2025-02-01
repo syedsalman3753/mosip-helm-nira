@@ -297,3 +297,10 @@ serviceAccount:
   ## If not set and create is true, a name is generated using the fullname template
   ##
   name:
+
+autoscaling:
+  enabled: false
+  minReplicas: 1
+  maxReplicas: 3
+  targetCPUUtilizationPercentage: 75
+  targetMemoryUtilizationPercentage: 75

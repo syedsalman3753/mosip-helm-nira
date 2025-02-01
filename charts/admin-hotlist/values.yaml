@@ -51,8 +51,8 @@ service:
 
 image:
   registry: docker.io
-  repository: mosipid/hotlist-service
-  tag: 1.2.0.1
+  repository: niraqa/hotlist-service
+  tag: pre-production
 
   ## Specify a imagePullPolicy
   ## Defaults to 'Always' if image tag is 'latest', else set to 'IfNotPresent'
@@ -418,3 +418,10 @@ istio:
   gateways:
     - istio-system/internal
   prefix: /v1/hotlist
+
+autoscaling:
+  enabled: false
+  minReplicas: 1
+  maxReplicas: 3
+  targetCPUUtilizationPercentage: 75
+  targetMemoryUtilizationPercentage: 75

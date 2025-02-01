@@ -433,3 +433,10 @@ istio:
   hosts:
     - pmp.sandbox.xyz.net
   prefix: /
+
+autoscaling:
+  enabled: false
+  minReplicas: 1
+  maxReplicas: 3
+  targetCPUUtilizationPercentage: 75
+  targetMemoryUtilizationPercentage: 75

@@ -470,3 +470,10 @@ istio:
         Pragma: no-cache
         Strict-Transport-Security: max-age=31536000; includeSubDomains
         X-Frame-Options: SAMEORIGIN
+
+autoscaling:
+  enabled: false
+  minReplicas: 1
+  maxReplicas: 3
+  targetCPUUtilizationPercentage: 75
+  targetMemoryUtilizationPercentage: 75
