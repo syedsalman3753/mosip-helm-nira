@@ -101,6 +101,12 @@ readinessProbe:
   failureThreshold: 3
   timeoutSeconds: 1
 
+startupProbe:
+  initialDelaySeconds: 120
+  periodSeconds: 10
+  failureThreshold: 3
+  timeoutSeconds: 1
+
 hpa:
   enabled: true
   maxReplicas: 5
