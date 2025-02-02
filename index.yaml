@@ -817,6 +817,30 @@ entries:
     urls:
     - https://tf-nira.github.io/mosip-helm-nira/clamav-12.0.1-1.tgz
     version: 12.0.1-1
+  - apiVersion: v2
+    appVersion: "1.9"
+    created: "2025-02-02T10:23:23.753480027Z"
+    description: An Open-Source antivirus engine for detecting trojans, viruses, malware
+      & other malicious threats. Using Mailu docker image.
+    digest: 9aa30cd8e8bef250c2c094ca708466b922864d4e74f60990743a42094470ae4c
+    home: https://www.clamav.net
+    icon: https://www.clamav.net/assets/clamav-trademark.png
+    maintainers:
+    - email: cdesaintmartin@wiremind.io
+      name: desaintmartin
+    - email: amrini@wiremind.io
+      name: machine424
+    - email: fminaud@wiremind.io
+      name: francoisminaud
+    name: clamav
+    sources:
+    - https://github.com/wiremind/wiremind-helm-charts/tree/main/charts/clamav
+    - https://github.com/Mailu/Mailu/tree/master/optional/clamav
+    - https://hub.docker.com/r/mailu/clamav
+    - https://github.com/Cisco-Talos/clamav-devel
+    urls:
+    - https://syedsalman3753.github.io/mosip-helm-nira/clamav-2.4.1.tgz
+    version: 2.4.1
   conf-secrets:
   - apiVersion: v2
     appVersion: 1.1.2
@@ -6088,4 +6112,4 @@ entries:
     urls:
     - https://tf-nira.github.io/mosip-helm-nira/websub-consolidator-12.0.1-1.tgz
     version: 12.0.1-1
-generated: "2025-02-01T17:22:43.741465103Z"
+generated: "2025-02-02T10:23:23.752783758Z"
