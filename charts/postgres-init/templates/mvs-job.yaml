@@ -46,5 +46,5 @@ spec:
 
           envFrom:
               - configMapRef:
-                  name: db-audit-init-env-config
+                  name: db-mvs-init-env-config
 {{- end }}
