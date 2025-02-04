@@ -3227,7 +3227,7 @@ entries:
     version: 12.0.1
   - apiVersion: v2
     appVersion: 1.2.0
-    created: "2025-02-01T15:16:54.521262909Z"
+    created: "2025-02-04T11:23:38.089756101Z"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -3235,7 +3235,7 @@ entries:
       - bitnami-common
       version: 1.x.x
     description: A Helm chart for Kubernetes to initialize various Postgres DBs.
-    digest: 39c1b7fa1772bf42e487a3c00d0d65aa23571aa0688f7b24731ad8411d8374d3
+    digest: 0946bd8c895016a0259abdc04dc7672e931c31856f1c59cd209717e33c7c8b9a
     home: https://mosip.io
     keywords:
     - postgres
@@ -6112,4 +6112,4 @@ entries:
     urls:
     - https://tf-nira.github.io/mosip-helm-nira/websub-consolidator-12.0.1-1.tgz
     version: 12.0.1-1
-generated: "2025-02-02T10:35:42.710997561Z"
+generated: "2025-02-04T11:23:38.087112327Z"
