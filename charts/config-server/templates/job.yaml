@@ -77,7 +77,7 @@ spec:
           command: ["/bin/bash"]
           args:
             - "-c"
-            - "git clone $REPO_URL -b $REPO_BRANCH $REPO_DESTINATION && chown -R 1001:1001 $REPO_DESTINATION && cd $REPO_DESTINATION && git checkout $REPO_BRANCH && git branch && git branch -d master"
+            - "git clone $REPO_URL -b $REPO_BRANCH $REPO_DESTINATION && chown -R 1001:1001 $REPO_DESTINATION && cd $REPO_DESTINATION && git checkout $REPO_BRANCH && git branch"
           envFrom:
             {{- if .Values.extraEnvVarsCM }}
             {{- range .Values.extraEnvVarsCM }}
