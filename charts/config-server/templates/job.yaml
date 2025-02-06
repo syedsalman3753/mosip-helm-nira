@@ -69,7 +69,7 @@ spec:
             - name: REPO_BRANCH
               value: {{ .Values.gitRepo.version }}
             - name: REPO_DESTINATION
-              value: {{ .Values.gitRepo.localRepo.path }}
+              value: {{ .Values.gitRepo.localRepo.uri }}
 
           {{- if .Values.extraEnvVars }}
           {{- include "common.tplvalues.render" (dict "value" .Values.extraEnvVars "context" $) | nindent 12 }}

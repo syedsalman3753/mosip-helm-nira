@@ -168,7 +168,6 @@ gitRepo:
   localRepo:
     enabled: false
     uri: "/home/mosip/config_repo/mosip-config"
-    path: /home/mosip/config_repo/
 
 persistence:
   enabled: false
