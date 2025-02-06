@@ -9,8 +9,8 @@ metadata:
     {{- end }}
   annotations:
     #"helm.sh/hook-delete-policy": hook-succeeded
-    "helm.sh/hook": pre-install
-    "helm.sh/hook-weight": "2"
+#    "helm.sh/hook": pre-install
+#    "helm.sh/hook-weight": "2"
     {{- if .Values.commonAnnotations }}
     {{- include "common.tplvalues.render" ( dict "value" .Values.commonAnnotations "context" $ ) | nindent 4 }}
     {{- end }}
