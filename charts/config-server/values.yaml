@@ -167,7 +167,7 @@ gitRepo:
   token: ""
   localRepo:
     enabled: false
-    uri: "file:///home/mosip/config_repo/mosip-config"
+    uri: "/home/mosip/config_repo/mosip-config"
     path: /home/mosip/config_repo/
 
 persistence:
@@ -185,7 +185,7 @@ persistence:
   nfs:
     host:
     path:
-    readOnly:
+    readOnly: false
 
 # All env variables that are accessed from mosip config properties
 envVariables:

@@ -28,7 +28,6 @@ spec:
   {{- end }}
   {{- if .Values.persistence.nfs.host }}
   nfs:
-    readOnly: {{ .Values.persistence.nfs.readOnly }}
     server: {{ .Values.persistence.nfs.host }}
     path: {{ .Values.persistence.nfs.path }}
   {{- end }}
