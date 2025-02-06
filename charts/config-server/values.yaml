@@ -578,7 +578,7 @@ envVariables:
     valueFrom:
       configMapKeyRef:
         name: s3
-        key: s3-user-key
+        key: s3-user-url
     enabled: true
 
   - name: SPRING_CLOUD_CONFIG_SERVER_OVERRIDES_S3_ACCESSKEY
