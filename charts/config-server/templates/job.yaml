@@ -1,4 +1,4 @@
-{{- if .Values.gitRepo.localRepo }}
+{{- if .Values.gitRepo.localRepo.enabled }}
 apiVersion: batch/v1
 kind: Job
 metadata:
