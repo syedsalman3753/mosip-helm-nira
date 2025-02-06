@@ -936,7 +936,7 @@ entries:
     version: 12.0.1
   - apiVersion: v2
     appVersion: 1.1.2
-    created: "2025-02-06T13:31:41.970158979Z"
+    created: "2025-02-06T13:35:49.95632067Z"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -944,7 +944,7 @@ entries:
       - bitnami-common
       version: 1.x.x
     description: A Helm chart for configuration of MOSIP modules
-    digest: 9a26a9c47d53c7544175903517d5855c7e6c94a9c7797d02a2b1d52282df18ef
+    digest: 1799710bd94ec9af31ae9caa5055a4a1c8348b1b03923286b259d11978b76663
     home: https://mosip.io
     keywords:
     - config-server
@@ -6112,4 +6112,4 @@ entries:
     urls:
     - https://tf-nira.github.io/mosip-helm-nira/websub-consolidator-12.0.1-1.tgz
     version: 12.0.1-1
-generated: "2025-02-06T13:31:41.967050363Z"
+generated: "2025-02-06T13:35:49.953216553Z"
