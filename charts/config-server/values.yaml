@@ -672,33 +672,33 @@ envVariables:
         key: sms-email-id
     enabled: true
 
-  - name: SPRING_CLOUD_CONFIG_SERVER_OVERRIDES_PREREG_CAPTCHA_SITE_KEY
-    valueFrom:
-      secretKeyRef:
-        name: mosip-captcha
-        key: prereg-captcha-site-key
-    enabled: true
+#  - name: SPRING_CLOUD_CONFIG_SERVER_OVERRIDES_PREREG_CAPTCHA_SITE_KEY
+#    valueFrom:
+#      secretKeyRef:
+#        name: mosip-captcha
+#        key: prereg-captcha-site-key
+#    enabled: true
 
-  - name: SPRING_CLOUD_CONFIG_SERVER_OVERRIDES_PREREG_CAPTCHA_SECRET_KEY
-    valueFrom:
-      secretKeyRef:
-        name: mosip-captcha
-        key: prereg-captcha-secret-key
-    enabled: true
+#  - name: SPRING_CLOUD_CONFIG_SERVER_OVERRIDES_PREREG_CAPTCHA_SECRET_KEY
+#    valueFrom:
+#      secretKeyRef:
+#        name: mosip-captcha
+#        key: prereg-captcha-secret-key
+#    enabled: true
 
-  - name: SPRING_CLOUD_CONFIG_SERVER_OVERRIDES_RESIDENT_CAPTCHA_SITE_KEY
-    valueFrom:
-      secretKeyRef:
-        name: mosip-captcha
-        key: resident-captcha-site-key
-    enabled: true
+#  - name: SPRING_CLOUD_CONFIG_SERVER_OVERRIDES_RESIDENT_CAPTCHA_SITE_KEY
+#    valueFrom:
+#      secretKeyRef:
+#        name: mosip-captcha
+#        key: resident-captcha-site-key
+#    enabled: true
 
-  - name: SPRING_CLOUD_CONFIG_SERVER_OVERRIDES_RESIDENT_CAPTCHA_SECRET_KEY
-    valueFrom:
-      secretKeyRef:
-        name: mosip-captcha
-        key: resident-captcha-secret-key
-    enabled: true
+#  - name: SPRING_CLOUD_CONFIG_SERVER_OVERRIDES_RESIDENT_CAPTCHA_SECRET_KEY
+#    valueFrom:
+#      secretKeyRef:
+#        name: mosip-captcha
+#        key: resident-captcha-secret-key
+#    enabled: true
 
   - name: SPRING_CLOUD_CONFIG_SERVER_OVERRIDES_S3_PRETEXT_VALUE
     valueFrom:
