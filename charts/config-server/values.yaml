@@ -574,9 +574,16 @@ envVariables:
         key: hub-secret-encryption-key
     enabled: true
 
-  - name: SPRING_CLOUD_CONFIG_SERVER_OVERRIDES_S3_ACCESSKEY
+  - name: SPRING_CLOUD_CONFIG_SERVER_OVERRIDES_S3_URL
     valueFrom:
       configMapKeyRef:
+        name: s3
+        key: s3-user-key
+    enabled: true
+
+  - name: SPRING_CLOUD_CONFIG_SERVER_OVERRIDES_S3_ACCESSKEY
+    valueFrom:
+      secretKeyRef:
         name: s3
         key: s3-user-key
     enabled: true
@@ -602,11 +609,11 @@ envVariables:
         key: smtp-host
     enabled: true
 
-  - name: SPRING_CLOUD_CONFIG_SERVER_OVERRIDES_SMS_HOST
+  - name: SPRING_CLOUD_CONFIG_SERVER_OVERRIDES_SMS_HOST_URL
     valueFrom:
       configMapKeyRef:
         name: msg-gateway
-        key: sms-host
+        key: sms-host-url
     enabled: true
 
   - name: SPRING_CLOUD_CONFIG_SERVER_OVERRIDES_SMTP_PORT
@@ -616,12 +623,12 @@ envVariables:
         key: smtp-port
     enabled: true
 
-  - name: SPRING_CLOUD_CONFIG_SERVER_OVERRIDES_SMS_PORT
-    valueFrom:
-      configMapKeyRef:
-        name: msg-gateway
-        key: sms-port
-    enabled: true
+#  - name: SPRING_CLOUD_CONFIG_SERVER_OVERRIDES_SMS_PORT
+#    valueFrom:
+#      configMapKeyRef:
+#        name: msg-gateway
+#        key: sms-port
+#    enabled: true
 
   - name: SPRING_CLOUD_CONFIG_SERVER_OVERRIDES_SMTP_USERNAME
     valueFrom:
@@ -630,11 +637,11 @@ envVariables:
         key: smtp-username
     enabled: true
 
-  - name: SPRING_CLOUD_CONFIG_SERVER_OVERRIDES_SMS_USERNAME
+  - name: SPRING_CLOUD_CONFIG_SERVER_OVERRIDES_SMS_USERID
     valueFrom:
       configMapKeyRef:
         name: msg-gateway
-        key: sms-username
+        key: sms-user-id
     enabled: true
 
   - name: SPRING_CLOUD_CONFIG_SERVER_OVERRIDES_SMTP_SECRET
@@ -656,6 +663,13 @@ envVariables:
       secretKeyRef:
         name: msg-gateway
         key: sms-authkey
+    enabled: true
+
+  - name: SPRING_CLOUD_CONFIG_SERVER_OVERRIDES_SMS_EMAIL_ID
+    valueFrom:
+      secretKeyRef:
+        name: msg-gateway
+        key: sms-email-id
     enabled: true
 
   - name: SPRING_CLOUD_CONFIG_SERVER_OVERRIDES_PREREG_CAPTCHA_SITE_KEY
@@ -726,6 +740,41 @@ envVariables:
       secretKeyRef:
         name: conf-secrets-various
         key: mosip-partner-crypto-p12-password
+    enabled: true
+
+  - name: SPRING_CLOUD_CONFIG_SERVER_OVERRIDES_IDREPO_WEBSUB_CARD_NUMBER_UPDATE_SECRET
+    valueFrom:
+      secretKeyRef:
+        name: conf-secrets-various
+        key: idrepo-websub-card-number-update-secret
+    enabled: true
+
+  - name: SPRING_CLOUD_CONFIG_SERVER_OVERRIDES_REDIS_HOST
+    valueFrom:
+      configMapKeyRef:
+        name: redis-config
+        key: redis-host
+    enabled: true
+
+  - name: SPRING_CLOUD_CONFIG_SERVER_OVERRIDES_REDIS_PORT
+    valueFrom:
+      configMapKeyRef:
+        name: redis-config
+        key: redis-port
+    enabled: true
+
+  - name: SPRING_CLOUD_CONFIG_SERVER_OVERRIDES_DATABASE_POOL_HOSTNAMES
+    valueFrom:
+      configMapKeyRef:
+        name: db-config
+        key: database-pool-hostnames
+    enabled: true
+
+  - name: SPRING_CLOUD_CONFIG_SERVER_OVERRIDES_MOSIP_BIOSDK_URL
+    valueFrom:
+      configMapKeyRef:
+        name: biosdk-config
+        key: mosip-biosdk-url
     enabled: true
 
 
