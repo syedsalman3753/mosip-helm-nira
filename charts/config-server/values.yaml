@@ -639,7 +639,7 @@ envVariables:
 
   - name: SPRING_CLOUD_CONFIG_SERVER_OVERRIDES_SMS_USERID
     valueFrom:
-      configMapKeyRef:
+      secretKeyRef:
         name: msg-gateway
         key: sms-user-id
     enabled: true
