@@ -2152,7 +2152,7 @@ entries:
     version: 12.0.1
   - apiVersion: v2
     appVersion: 1.2.0
-    created: "2025-02-01T15:16:54.491516782Z"
+    created: "2025-02-07T13:07:03.164997327Z"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -2160,7 +2160,7 @@ entries:
       - bitnami-common
       version: 1.x.x
     description: A Helm chart to upload default masterdata to mosip_master DB.
-    digest: 088b6c780612f3384df744b2840c2b2d8f474496d6074c714e3633fb0b630480
+    digest: 09d4a7e3ea6e113ad691bc7c48098b4811aee750862da5a33d96dcd06c38db19
     home: https://mosip.io
     keywords:
     - postgres
@@ -6112,4 +6112,4 @@ entries:
     urls:
     - https://tf-nira.github.io/mosip-helm-nira/websub-consolidator-12.0.1-1.tgz
     version: 12.0.1-1
-generated: "2025-02-06T17:22:13.817366784Z"
+generated: "2025-02-07T13:07:03.163054648Z"
