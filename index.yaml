@@ -1221,7 +1221,7 @@ entries:
       category: DeveloperTools
     apiVersion: v2
     appVersion: 16.1.1
-    created: "2025-03-05T16:52:46.226229334Z"
+    created: "2025-03-05T16:57:18.254706457Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1235,7 +1235,7 @@ entries:
     description: Keycloak is a high performance Java-based identity and access management
       solution. It lets developers add an authentication layer to their applications
       with minimum effort.
-    digest: 984c6782a52e58ac98eee19b67753b390591ed85e134433b80b8841a0ebdbcb0
+    digest: 4ce9b2f484ab2e30e31eec6c7317732a0cd8108995d21a4b0868de87fb2e2ba9
     home: https://www.keycloak.org
     icon: https://bitnami.com/assets/stacks/keycloak/img/keycloak-stack-220x234.png
     keywords:
@@ -4186,4 +4186,4 @@ entries:
     urls:
     - https://tf-nira.github.io/mosip-helm-nira/websub-consolidator-12.0.1-1.tgz
     version: 12.0.1-1
-generated: "2025-03-05T16:52:46.219865108Z"
+generated: "2025-03-05T16:57:18.247598106Z"
