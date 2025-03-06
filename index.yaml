@@ -911,6 +911,40 @@ entries:
     urls:
     - https://tf-nira.github.io/mosip-helm-nira/dslorchestrator-12.0.1-1.tgz
     version: 12.0.1-1
+  elasticsearch:
+  - annotations:
+      category: Analytics
+    apiVersion: v2
+    appVersion: 7.17.2
+    created: "2025-03-06T14:52:04.593901859Z"
+    dependencies:
+    - condition: global.kibanaEnabled
+      name: kibana
+      repository: https://tf-nira.github.io/mosip-helm-nira
+      version: 9.x.x
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: Elasticsearch is a distributed search and analytics engine. It is
+      used for web search, log monitoring, and real-time analytics. Ideal for Big
+      Data applications.
+    digest: 823373a2cd542db63c32fb148ec97cc2622d46a33fa115f98e9615b29a1d4cf0
+    home: https://github.com/bitnami/charts/tree/master/bitnami/elasticsearch
+    icon: https://bitnami.com/assets/stacks/elasticsearch/img/elasticsearch-stack-220x234.png
+    keywords:
+    - elasticsearch
+    maintainers:
+    - email: containers@bitnami.com
+      name: Bitnami
+    name: elasticsearch
+    sources:
+    - https://github.com/bitnami/bitnami-docker-elasticsearch
+    - https://www.elastic.co/products/elasticsearch
+    urls:
+    - https://tf-nira.github.io/mosip-helm-nira/elasticsearch-17.9.25.tgz
+    version: 17.9.25
   gc-util:
   - apiVersion: v2
     created: "2024-05-27T14:08:54.011990962+03:00"
@@ -4244,4 +4278,4 @@ entries:
     urls:
     - https://tf-nira.github.io/mosip-helm-nira/websub-consolidator-12.0.1-1.tgz
     version: 12.0.1-1
-generated: "2025-03-06T14:13:26.365710181Z"
+generated: "2025-03-06T14:52:04.58712383Z"
