@@ -916,7 +916,7 @@ entries:
       category: Analytics
     apiVersion: v2
     appVersion: 7.17.2
-    created: "2025-03-06T14:57:50.506934791Z"
+    created: "2025-03-06T15:04:20.169747475Z"
     dependencies:
     - condition: global.kibanaEnabled
       name: kibana
@@ -930,7 +930,7 @@ entries:
     description: Elasticsearch is a distributed search and analytics engine. It is
       used for web search, log monitoring, and real-time analytics. Ideal for Big
       Data applications.
-    digest: 11b7f1dcbac2d49a52b4cf4958c1c0b0b37e8d82d564384c56350de376ca2c96
+    digest: 7ef390b9fa161b24241e6fa109e5bf81fb5d5eb9ca158bb8fa9f58fde6aacc4b
     home: https://github.com/bitnami/charts/tree/master/bitnami/elasticsearch
     icon: https://bitnami.com/assets/stacks/elasticsearch/img/elasticsearch-stack-220x234.png
     keywords:
@@ -4278,4 +4278,4 @@ entries:
     urls:
     - https://tf-nira.github.io/mosip-helm-nira/websub-consolidator-12.0.1-1.tgz
     version: 12.0.1-1
-generated: "2025-03-06T14:57:50.500080082Z"
+generated: "2025-03-06T15:04:20.162678241Z"
