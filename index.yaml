@@ -613,10 +613,10 @@ entries:
     version: 12.0.1-1
   - apiVersion: v2
     appVersion: "1.9"
-    created: "2025-03-06T08:16:58.351125342Z"
+    created: "2025-03-06T08:34:25.158842909Z"
     description: An Open-Source antivirus engine for detecting trojans, viruses, malware
       & other malicious threats. Using Mailu docker image.
-    digest: 816bb4e716f71569e717c030e838417c6e378407ed5abc543055adc6902ed461
+    digest: 5c5837cc50563c7be928575adc18267e6cb2317b20d83b560dca6bb4a64f6ff8
     home: https://www.clamav.net
     icon: https://www.clamav.net/assets/clamav-trademark.png
     maintainers:
@@ -4210,4 +4210,4 @@ entries:
     urls:
     - https://tf-nira.github.io/mosip-helm-nira/websub-consolidator-12.0.1-1.tgz
     version: 12.0.1-1
-generated: "2025-03-06T08:16:58.350047039Z"
+generated: "2025-03-06T08:34:25.158034395Z"
