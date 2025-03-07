@@ -1274,6 +1274,21 @@ entries:
     urls:
     - https://tf-nira.github.io/mosip-helm-nira/idrepo-saltgen-12.0.1-1.tgz
     version: 12.0.1-1
+  kafka-ui:
+  - apiVersion: v2
+    appVersion: v0.4.0
+    created: "2025-03-07T09:45:02.500463503Z"
+    description: A Helm chart for kafka-UI
+    digest: 7eb4c0ae93ac69f58f5595223724a0c28546d080a2434f70f599199a73ea0f6e
+    icon: https://github.com/provectus/kafka-ui/raw/master/documentation/images/kafka-ui-logo.png
+    maintainers:
+    - email: technoforte@co.in
+      name: TECHNOFORTE
+    name: kafka-ui
+    type: application
+    urls:
+    - https://tf-nira.github.io/mosip-helm-nira/kafka-ui-v0.4.2.tgz
+    version: v0.4.2
   keycloak:
   - annotations:
       category: DeveloperTools
@@ -4278,4 +4293,4 @@ entries:
     urls:
     - https://tf-nira.github.io/mosip-helm-nira/websub-consolidator-12.0.1-1.tgz
     version: 12.0.1-1
-generated: "2025-03-06T15:04:20.162678241Z"
+generated: "2025-03-07T09:45:02.499805644Z"
