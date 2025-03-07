@@ -1277,9 +1277,9 @@ entries:
   kafka-ui:
   - apiVersion: v2
     appVersion: v0.4.0
-    created: "2025-03-07T09:45:02.500463503Z"
+    created: "2025-03-07T09:46:52.176960704Z"
     description: A Helm chart for kafka-UI
-    digest: 7eb4c0ae93ac69f58f5595223724a0c28546d080a2434f70f599199a73ea0f6e
+    digest: 7d4bb187ab7d329e80bbc5f6640510e5f083fba84f66fa00a661f31b44389950
     icon: https://github.com/provectus/kafka-ui/raw/master/documentation/images/kafka-ui-logo.png
     maintainers:
     - email: technoforte@co.in
@@ -4293,4 +4293,4 @@ entries:
     urls:
     - https://tf-nira.github.io/mosip-helm-nira/websub-consolidator-12.0.1-1.tgz
     version: 12.0.1-1
-generated: "2025-03-07T09:45:02.499805644Z"
+generated: "2025-03-07T09:46:52.176286628Z"
