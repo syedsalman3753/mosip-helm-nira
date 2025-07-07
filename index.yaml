@@ -1276,7 +1276,7 @@ entries:
     version: 12.0.1-1
   k8s-helm-backup:
   - apiVersion: v2
-    created: "2025-07-07T10:44:35.175791664Z"
+    created: "2025-07-07T10:58:13.439071088Z"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -1284,7 +1284,7 @@ entries:
       - bitnami-common
       version: 1.x.x
     description: A Helm chart to deploy k8s-helm-backup to test working of MOSIP modules
-    digest: 7afd166b76dfdb1f929d88e68141f6ebc1ae7602dd11d190ca018d3fd68ba711
+    digest: 8e088ab0a37ae6a02fa27900242938195c7939665f425a3610fdbf803a87fd8e
     home: https://mosip.io
     keywords:
     - mosip
@@ -1295,7 +1295,7 @@ entries:
     name: k8s-helm-backup
     type: application
     urls:
-    - https://syedsalman3753.github.io/mosip-helm-nira/k8s-helm-backup-12.0.1-prod.tgz
+    - https://tf-nira.github.io/mosip-helm-nira/k8s-helm-backup-12.0.1-prod.tgz
     version: 12.0.1-prod
   kafka-ui:
   - apiVersion: v2
@@ -4316,4 +4316,4 @@ entries:
     urls:
     - https://tf-nira.github.io/mosip-helm-nira/websub-consolidator-12.0.1-1.tgz
     version: 12.0.1-1
-generated: "2025-07-07T10:44:35.174207635Z"
+generated: "2025-07-07T10:58:13.437435973Z"
