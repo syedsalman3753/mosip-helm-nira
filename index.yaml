@@ -3773,7 +3773,7 @@ entries:
     - https://niragit.github.io/mosip-helm/reporting-12.0.1.tgz
     version: 12.0.1
   - apiVersion: v2
-    created: "2025-07-30T09:53:47.76171928Z"
+    created: "2025-07-30T10:02:17.593867277Z"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -3786,7 +3786,7 @@ entries:
       repository: https://charts.bitnami.com/bitnami
       version: '>= 17.0.0'
     description: A Helm chart for MOSIP Reporting module.
-    digest: 369eee5ae1ef78b1f35a30e50a6b79effcc88ce6ae8eec0e2b28eaedbaa058c2
+    digest: d237fd85537d0f0529ddda2c45b3bfe0706b2e4cb686077b70b481cf33502d1c
     maintainers:
     - email: info@mosip.io
       name: MOSIP
@@ -4351,4 +4351,4 @@ entries:
     urls:
     - https://tf-nira.github.io/mosip-helm-nira/websub-consolidator-12.0.1-1.tgz
     version: 12.0.1-1
-generated: "2025-07-30T09:53:47.750797922Z"
+generated: "2025-07-30T10:02:17.583555689Z"
