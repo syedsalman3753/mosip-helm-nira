@@ -3772,6 +3772,29 @@ entries:
     urls:
     - https://niragit.github.io/mosip-helm/reporting-12.0.1.tgz
     version: 12.0.1
+  - apiVersion: v2
+    created: "2025-07-30T08:19:14.922459503Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    - alias: bitnami-elasticsearch
+      condition: bitnami-elasticsearch.enabled
+      name: elasticsearch
+      repository: https://charts.bitnami.com/bitnami
+      version: '>= 17.0.0'
+    description: A Helm chart for MOSIP Reporting module.
+    digest: 01b42264b113107c768ed4498a8dfca80531d317b8b3cb851c964906b483b87f
+    maintainers:
+    - email: info@mosip.io
+      name: MOSIP
+    name: reporting
+    type: application
+    urls:
+    - https://tf-nira.github.io/mosip-helm-nira/reporting-0.0.1-develop.tgz
+    version: 0.0.1-develop
   reporting-init:
   - apiVersion: v2
     created: "2024-05-27T14:08:54.333119923+03:00"
@@ -3785,6 +3808,18 @@ entries:
     urls:
     - https://niragit.github.io/mosip-helm/reporting-init-12.0.1.tgz
     version: 12.0.1
+  - apiVersion: v2
+    created: "2025-07-30T08:19:14.922803222Z"
+    description: A Helm chart for MOSIP Reporting Initialization.
+    digest: a731a446cf1b647da757e95a7737337436a9dffc7709de91284662f85d388c5d
+    maintainers:
+    - email: info@mosip.io
+      name: MOSIP
+    name: reporting-init
+    type: application
+    urls:
+    - https://tf-nira.github.io/mosip-helm-nira/reporting-init-0.0.1-develop.tgz
+    version: 0.0.1-develop
   resident:
   - apiVersion: v2
     created: "2024-05-27T14:08:54.338050698+03:00"
@@ -4316,4 +4351,4 @@ entries:
     urls:
     - https://tf-nira.github.io/mosip-helm-nira/websub-consolidator-12.0.1-1.tgz
     version: 12.0.1-1
-generated: "2025-07-23T13:54:03.78502286Z"
+generated: "2025-07-30T08:19:14.912260793Z"
